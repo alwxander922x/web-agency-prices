@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Websites, apps and custom systems in Moldova</title>
+<meta name="description" content="Web development in Moldova: websites, online stores, CRM, mobile apps, support and SEO. Clear pricing in euros.">
+<meta name="color-scheme" content="dark light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script src="data.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false" role="presentation">
+  <defs>
+    <symbol id="i-logo" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M8 15.5l3-3-3-3M13 15.5h3.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><path d="M16 4.7a3.5 3.5 0 010 6.6M18 14.3c2 .8 3.5 2.6 3.5 5.7"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2.5L4.5 13.5H11l-1 8 8.5-11H12z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 018 0v2.5M12 14.8v2"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.9 5.6 3.9 9s-1.3 6.4-3.9 9c-2.6-2.6-3.9-5.6-3.9-9S9.4 5.6 12 3z"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<div id="live" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
+<header class="bar-wrap">
+  <div class="bar">
+    <a class="logo" href="#top" id="logo">
+      <svg class="ic logo-mark" aria-hidden="true" focusable="false"><use href="#i-logo"/></svg>
+      <span class="logo-t" data-i18n="logo_t"></span>
+    </a>
+    <nav class="nav" data-aria="nav_main">
+      <a href="#packages" data-i18n="nav_packages"></a>
+      <a href="#prices" data-i18n="nav_prices"></a>
+      <a href="#process" data-i18n="nav_process"></a>
+      <a href="#faq" data-i18n="nav_faq"></a>
+    </nav>
+    <div class="bar-end">
+      <div class="lang" role="group" data-aria="lang_group">
+        <button type="button" data-lang="ro" lang="ro" aria-pressed="false">RO</button>
+        <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang="ru" lang="ru" aria-pressed="false">RU</button>
+      </div>
+      <a class="btn btn-primary bar-cta" href="#prices"><span class="bar-cta-t" data-i18n="nav_cta"></span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <noscript>
+    <p lang="en">This page needs JavaScript to show its content. Please enable JavaScript and reload.</p>
+    <p lang="ro">Aceasta pagină necesită JavaScript pentru a afișa conținutul. Activați JavaScript și reîncărcați pagina.</p>
+    <p lang="ru">Для отображения содержимого нужен JavaScript. Включите JavaScript и перезагрузите страницу.</p>
+  </noscript>
+  <section class="hero wrap" id="top">
+    <div class="hero-copy">
+      <p class="badge"><span class="dot" aria-hidden="true"></span><span data-i18n="badge"></span></p>
+      <h1><span data-i18n="h1a"></span> <span class="grad" data-i18n="h1b"></span></h1>
+      <p class="lead" data-i18n="lead"></p>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="#packages"><span data-i18n="cta_quote"></span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-ghost btn-lg" href="#prices" data-i18n="cta_prices"></a>
+      </div>
+      <p class="micro" data-i18n="hero_micro"></p>
+    </div>
+    <div class="stack" id="stack" aria-hidden="true"></div>
+    <dl class="stats" id="stats"></dl>
+  </section>
+
+  <div class="guar wrap">
+    <ul id="guar" class="guar-list"></ul>
+  </div>
+
+  <section class="sec wrap" id="packages" aria-labelledby="pk-h">
+    <header class="sec-head rv">
+      <p class="eyebrow" data-i18n="pk_eye"></p>
+      <h2 id="pk-h" data-i18n="pk_h"></h2>
+      <p class="sub" data-i18n="pk_sub"></p>
+    </header>
+    <div class="grid-3" id="packagesGrid"></div>
+    <div class="help rv" role="group" aria-labelledby="help-q">
+      <p class="help-q" id="help-q"></p>
+      <div class="chips" id="help"></div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="bundles" aria-labelledby="bun-h">
+    <header class="sec-head rv">
+      <p class="eyebrow" data-i18n="bun_eye"></p>
+      <h2 id="bun-h" data-i18n="bun_h"></h2>
+      <p class="sub" data-i18n="bun_sub"></p>
+    </header>
+    <div class="grid-3" id="bundlesGrid"></div>
+  </section>
+
+  <section class="sec wrap" id="prices" aria-labelledby="pl-h">
+    <header class="sec-head rv">
+      <p class="eyebrow" data-i18n="pl_eye"></p>
+      <h2 id="pl-h" data-i18n="pl_h"></h2>
+      <p class="sub" data-i18n="pl_sub"></p>
+    </header>
+    <div class="tabs" id="tabs" role="group" data-aria="cats"></div>
+    <div class="plist" id="plist"></div>
+    <p class="note" data-i18n="pl_note"></p>
+  </section>
+
+  <section class="sec wrap" id="why" aria-labelledby="wy-h">
+    <header class="sec-head rv">
+      <p class="eyebrow" data-i18n="wy_eye"></p>
+      <h2 id="wy-h" data-i18n="wy_h"></h2>
+    </header>
+    <div class="bento" id="whyGrid"></div>
+  </section>
+
+  <section class="sec wrap" id="process" aria-labelledby="pr-h">
+    <header class="sec-head rv">
+      <p class="eyebrow" data-i18n="pr_eye"></p>
+      <h2 id="pr-h" data-i18n="pr_h"></h2>
+    </header>
+    <ol class="steps" id="steps"></ol>
+  </section>
+
+  <section class="sec wrap" id="faq" aria-labelledby="fq-h">
+    <header class="sec-head rv">
+      <p class="eyebrow" data-i18n="fq_eye"></p>
+      <h2 id="fq-h" data-i18n="fq_h"></h2>
+    </header>
+    <div class="faq" id="faqList"></div>
+  </section>
+
+  <section class="wrap closing-wrap" aria-labelledby="end-h">
+    <div class="closing rv">
+      <div>
+        <h2 id="end-h" data-i18n="end_h"></h2>
+        <p data-i18n="end_p"></p>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="#packages"><span data-i18n="cta_quote"></span><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-ghost btn-lg" href="#prices" data-i18n="cta_prices"></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot wrap">
+  <p>&copy; <span id="yr"></span> &middot; Moldova &middot; <span data-i18n="foot"></span></p>
+</footer>
+</body>
+</html>
