@@ -124,6 +124,12 @@
       `<button type="button" class="tab" data-cat="${k}" aria-controls="plist" aria-pressed="${k === cat}">${v}</button>`).join("");
   }
 
+  /* p === null means the price is agreed per project */
+  function itemPrice(s, t) {
+    if (s.p === null) return `<p class="item-p item-nego"><b>${t.nego}</b></p>`;
+    return `<p class="item-p"><small>${t.from}</small><b>${fmt(s.p)}</b>${s.u !== "p" ? `<small>${unitLabel(s.u, t)}</small>` : ""}</p>`;
+  }
+
   function renderList() {
     const t = T[lang];
     const items = S.filter((s) => cat === "all" || s.c === cat);
@@ -134,7 +140,7 @@
           ${s.hot ? `<span class="hot">${t.hot}</span>` : ""}
           <p>${s.d[lang]}</p>
         </div>
-        <p class="item-p"><small>${t.from}</small><b>${fmt(s.p)}</b>${s.u !== "p" ? `<small>${unitLabel(s.u, t)}</small>` : ""}</p>
+        ${itemPrice(s, t)}
       </article>`).join("");
   }
 

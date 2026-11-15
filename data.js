@@ -1,4 +1,4 @@
-/* Site data: translations (RO/EN/RU) and the EUR price list. Edit prices here. */
+/* Site data: translations (RO/EN/RU) and the EUR price list. Edit prices here; p:null means a negotiable price. */
 window.DATA = {
  "T": {
   "ro": {
@@ -11,7 +11,7 @@ window.DATA = {
    "badge": "Acceptăm proiecte noi",
    "h1a": "Site-uri și sisteme care",
    "h1b": "aduc clienți, nu doar arată bine.",
-   "lead": "Site-uri, magazine online și sisteme pentru afaceri mici din Moldova. Preț fix în scris, termene clare, codul rămâne al tău.",
+   "lead": "Site-uri, magazine online, automatizări și sisteme pentru afaceri mici din Moldova. Preț fix în scris, termene clare, iar codul rămâne al tău.",
    "cta_quote": "Vezi pachetele",
    "cta_prices": "Vezi lista de prețuri",
    "hero_micro": "50% avans, 50% la predare · 2 runde de corecturi incluse",
@@ -68,7 +68,7 @@ window.DATA = {
    "bun_best": "Cel mai avantajos",
    "pl_eye": "Lista completă",
    "pl_h": "Toate serviciile și prețurile",
-   "pl_sub": "Prețurile sunt orientative („de la”). Prețul final depinde de cerințe și se fixează în scris înainte de start.",
+   "pl_sub": "Prețurile sunt orientative („de la”). Prețul final depinde de cerințe și se fixează în scris înainte de start. Serviciile marcate „Preț negociabil” se evaluează în funcție de sarcina ta.",
    "pl_note": "Prețuri în euro (EUR). Plată în MDL sau EUR, prin transfer bancar sau card (în MDL — la cursul BNM din ziua plății). Standard: 50% avans, 50% la predare; proiectele mari — în etape.",
    "hot": "Start aici",
    "wy_eye": "De ce noi",
@@ -90,7 +90,8 @@ window.DATA = {
     "fix": "Reparații și suport",
     "grow": "SEO & Marketing",
     "design": "Design",
-    "auto": "Automatizări & AI"
+    "auto": "Automatizări & AI",
+    "custom": "Alte servicii"
    },
    "pkgs": [
     {
@@ -241,7 +242,8 @@ window.DATA = {
    "meta_desc": "Dezvoltare web în Moldova: landing de la 300 €, site-uri, magazine online, CRM, aplicații mobile, suport și SEO. Prețuri clare în euro.",
    "end_h": "Alege punctul de start",
    "end_p": "Alege un pachet sau găsește serviciul exact în lista de prețuri. Prețul este fix și confirmat în scris înainte de start: 50% avans, 50% la predare.",
-   "more": "Vezi toate serviciile și prețurile"
+   "more": "Vezi toate serviciile și prețurile",
+   "nego": "Preț negociabil"
   },
   "en": {
    "skip": "Skip to content",
@@ -253,7 +255,7 @@ window.DATA = {
    "badge": "Taking new projects",
    "h1a": "Websites & systems that",
    "h1b": "bring customers, not just look good.",
-   "lead": "Websites, online stores and custom systems for small businesses in Moldova. A fixed price in writing, clear deadlines, and you keep the code.",
+   "lead": "Websites, online stores, automation and custom systems for small businesses in Moldova. A fixed price in writing, clear deadlines, and you keep the code.",
    "cta_quote": "See packages",
    "cta_prices": "See the price list",
    "hero_micro": "50% upfront, 50% on delivery · 2 revision rounds included",
@@ -310,7 +312,7 @@ window.DATA = {
    "bun_best": "Best value",
    "pl_eye": "Full list",
    "pl_h": "All services & prices",
-   "pl_sub": "Prices are indicative (“from”). The final price depends on your requirements and is fixed in writing before we start.",
+   "pl_sub": "Prices are indicative (“from”). The final price depends on your requirements and is fixed in writing before we start. Items marked “Negotiable price” are estimated for your specific task.",
    "pl_note": "Prices in euros (EUR). Pay in MDL or EUR by bank transfer or card (MDL at the NBM rate on the payment date). Standard: 50% upfront, 50% on delivery; larger projects in milestones.",
    "hot": "Start here",
    "wy_eye": "Why us",
@@ -332,7 +334,8 @@ window.DATA = {
     "fix": "Fixes & support",
     "grow": "SEO & Marketing",
     "design": "Design",
-    "auto": "Automation & AI"
+    "auto": "Automation & AI",
+    "custom": "More services"
    },
    "pkgs": [
     {
@@ -483,7 +486,8 @@ window.DATA = {
    "meta_desc": "Web development in Moldova: landing pages from €300, websites, online stores, CRM, mobile apps, support and SEO. Clear pricing in euros.",
    "end_h": "Pick your starting point",
    "end_p": "Pick a package or find the exact service in the price list. The price is fixed and confirmed in writing before we start: 50% upfront, 50% on delivery.",
-   "more": "See all services and prices"
+   "more": "See all services and prices",
+   "nego": "Negotiable price"
   },
   "ru": {
    "skip": "Перейти к содержимому",
@@ -495,7 +499,7 @@ window.DATA = {
    "badge": "Берём новые проекты",
    "h1a": "Сайты и системы, которые",
    "h1b": "приводят клиентов, а не просто выглядят красиво.",
-   "lead": "Сайты, интернет-магазины и системы для малого бизнеса в Молдове. Цена фиксируется письменно, сроки понятны, код остаётся вашим.",
+   "lead": "Сайты, интернет-магазины, автоматизации и системы для малого бизнеса в Молдове. Цена фиксируется письменно, сроки понятны, код остаётся вашим.",
    "cta_quote": "Смотреть пакеты",
    "cta_prices": "Смотреть прайс-лист",
    "hero_micro": "50% аванс, 50% при сдаче · 2 круга правок включены",
@@ -552,7 +556,7 @@ window.DATA = {
    "bun_best": "Самый выгодный",
    "pl_eye": "Полный список",
    "pl_h": "Все услуги и цены",
-   "pl_sub": "Цены ориентировочные («от»). Итоговая цена зависит от задач и фиксируется письменно до старта.",
+   "pl_sub": "Цены ориентировочные («от»). Итоговая цена зависит от задач и фиксируется письменно до старта. Позиции с пометкой «Договорная цена» оцениваются под вашу задачу.",
    "pl_note": "Цены в евро (EUR). Оплата в MDL или EUR банковским переводом или картой (в MDL — по курсу НБМ на день оплаты). Стандарт: 50% аванс, 50% при сдаче; крупные проекты — по этапам.",
    "hot": "Начните здесь",
    "wy_eye": "Почему мы",
@@ -574,7 +578,8 @@ window.DATA = {
     "fix": "Правки и поддержка",
     "grow": "SEO и маркетинг",
     "design": "Дизайн",
-    "auto": "Автоматизация и AI"
+    "auto": "Автоматизация и AI",
+    "custom": "Прочие услуги"
    },
    "pkgs": [
     {
@@ -725,7 +730,8 @@ window.DATA = {
    "meta_desc": "Веб-разработка в Молдове: лендинг от 300 €, сайты, интернет-магазины, CRM, мобильные приложения, поддержка и SEO. Понятные цены в евро.",
    "end_h": "Выберите, с чего начать",
    "end_p": "Выберите пакет или найдите нужную услугу в прайс-листе. Цена фиксируется письменно до старта: 50% аванс, 50% при сдаче.",
-   "more": "Смотреть все услуги и цены"
+   "more": "Смотреть все услуги и цены",
+   "nego": "Договорная цена"
   }
  },
  "ARIA": {
@@ -1498,6 +1504,306 @@ window.DATA = {
     "en": "Collect data into Excel / database",
     "ru": "Собираем данные в Excel / базу"
    }
+  },
+  {
+   "c": "auto",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Automatizarea proceselor de business",
+    "en": "Business process automation",
+    "ru": "Автоматизация бизнес-процессов"
+   },
+   "d": {
+    "ro": "Aprobări, sarcini, notificări și rapoarte fără muncă manuală",
+    "en": "Approvals, tasks, notifications and reports without manual work",
+    "ru": "Согласования, задачи, уведомления и отчёты без ручной работы"
+   }
+  },
+  {
+   "c": "auto",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Rapoarte automate în Excel / Google Sheets",
+    "en": "Automated reports in Excel / Google Sheets",
+    "ru": "Автоматические отчёты в Excel / Google Sheets"
+   },
+   "d": {
+    "ro": "Datele se adună și se actualizează singure",
+    "en": "Data is collected and refreshed on its own",
+    "ru": "Данные собираются и обновляются сами"
+   }
+  },
+  {
+   "c": "auto",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Campanii automate: e-mail, SMS, mesagerie",
+    "en": "Automated email, SMS and messenger campaigns",
+    "ru": "Автоматические рассылки: email, SMS, мессенджеры"
+   },
+   "d": {
+    "ro": "Scenarii declanșate de acțiunile clientului",
+    "en": "Scenarios triggered by customer actions",
+    "ru": "Сценарии по действиям клиента"
+   }
+  },
+  {
+   "c": "auto",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Agenți și asistenți AI pe datele tale",
+    "en": "AI agents and assistants on your data",
+    "ru": "ИИ-агенты и ассистенты на ваших данных"
+   },
+   "d": {
+    "ro": "Căutare în documente, răspunsuri, sarcini repetitive",
+    "en": "Document search, answers, repetitive tasks",
+    "ru": "Поиск по документам, ответы, рутинные задачи"
+   }
+  },
+  {
+   "c": "auto",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Recunoaștere și procesare documente (OCR)",
+    "en": "Document recognition and processing (OCR)",
+    "ru": "Распознавание и обработка документов (OCR)"
+   },
+   "d": {
+    "ro": "Facturi, contracte, formulare — direct în sistemul tău",
+    "en": "Invoices, contracts, forms — straight into your system",
+    "ru": "Счета, договоры, формы — сразу в вашу систему"
+   }
+  },
+  {
+   "c": "auto",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Monitorizare prețuri și concurenți",
+    "en": "Price and competitor monitoring",
+    "ru": "Мониторинг цен и конкурентов"
+   },
+   "d": {
+    "ro": "Colectare automată și alerte la schimbări",
+    "en": "Automatic collection and change alerts",
+    "ru": "Автоматический сбор данных и уведомления об изменениях"
+   }
+  },
+  {
+   "c": "sys",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Evidență comercială și stocuri la cheie",
+    "en": "Turnkey sales and inventory system",
+    "ru": "Складской и торговый учёт под ключ"
+   },
+   "d": {
+    "ro": "Stocuri, achiziții, vânzări, rapoarte",
+    "en": "Stock, purchasing, sales, reports",
+    "ru": "Остатки, закупки, продажи, отчёты"
+   }
+  },
+  {
+   "c": "sys",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Portal pentru angajați / HR",
+    "en": "Employee / HR portal",
+    "ru": "Портал для сотрудников / HR"
+   },
+   "d": {
+    "ro": "Concedii, documente, sarcini, anunțuri",
+    "en": "Leave, documents, tasks, announcements",
+    "ru": "Отпуска, документы, задачи, объявления"
+   }
+  },
+  {
+   "c": "sys",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Sistem de loialitate și bonusuri",
+    "en": "Loyalty and bonus system",
+    "ru": "Система лояльности и бонусов"
+   },
+   "d": {
+    "ro": "Carduri, puncte, promoții, istoric",
+    "en": "Cards, points, promotions, history",
+    "ru": "Карты, баллы, акции, история"
+   }
+  },
+  {
+   "c": "sys",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Platformă cu mai mulți utilizatori / marketplace",
+    "en": "Multi-user platform / marketplace",
+    "ru": "Многопользовательская платформа / маркетплейс"
+   },
+   "d": {
+    "ro": "Roluri, plăți, comisioane, moderare",
+    "en": "Roles, payments, commissions, moderation",
+    "ru": "Роли, платежи, комиссии, модерация"
+   }
+  },
+  {
+   "c": "sys",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Panouri BI și rapoarte analitice",
+    "en": "BI dashboards and analytics reports",
+    "ru": "BI-дашборды и аналитические отчёты"
+   },
+   "d": {
+    "ro": "Cifrele afacerii într-un singur loc",
+    "en": "Your business figures in one place",
+    "ru": "Цифры вашего бизнеса в одном месте"
+   }
+  },
+  {
+   "c": "sys",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Integrare cu case de marcat și echipamente",
+    "en": "Cash register and equipment integration",
+    "ru": "Интеграция с кассами и оборудованием"
+   },
+   "d": {
+    "ro": "Case fiscale, scannere, imprimante, terminale",
+    "en": "Fiscal registers, scanners, printers, terminals",
+    "ru": "Фискальные кассы, сканеры, принтеры, терминалы"
+   }
+  },
+  {
+   "c": "app",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Aplicații interne pentru echipă și curieri",
+    "en": "Internal apps for staff and couriers",
+    "ru": "Внутренние приложения для команды и курьеров"
+   },
+   "d": {
+    "ro": "Comenzi, trasee, statusuri, notificări",
+    "en": "Orders, routes, statuses, notifications",
+    "ru": "Заказы, маршруты, статусы, уведомления"
+   }
+  },
+  {
+   "c": "custom",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Dezvoltare la comandă după caietul de sarcini",
+    "en": "Custom development to your specification",
+    "ru": "Разработка по вашему ТЗ"
+   },
+   "d": {
+    "ro": "Orice proiect, evaluat după cerințele tale",
+    "en": "Any project, estimated from your requirements",
+    "ru": "Любой проект, оцениваем по вашим требованиям"
+   }
+  },
+  {
+   "c": "custom",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Dezvoltator dedicat pentru echipa ta",
+    "en": "Dedicated developer for your team",
+    "ru": "Выделенный разработчик в вашу команду"
+   },
+   "d": {
+    "ro": "Colaborare pe termen lung, plată lunară",
+    "en": "Long-term cooperation, monthly payment",
+    "ru": "Долгосрочное сотрудничество, оплата помесячно"
+   }
+  },
+  {
+   "c": "custom",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Audit tehnic și refactorizare cod",
+    "en": "Technical audit and code refactoring",
+    "ru": "Технический аудит и рефакторинг кода"
+   },
+   "d": {
+    "ro": "Analizăm codul existent și îl îmbunătățim",
+    "en": "We review your existing code and improve it",
+    "ru": "Разбираем существующий код и улучшаем его"
+   }
+  },
+  {
+   "c": "custom",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Consultanță: arhitectură și alegerea tehnologiilor",
+    "en": "Consulting: architecture and technology choices",
+    "ru": "Консультации: архитектура и выбор технологий"
+   },
+   "d": {
+    "ro": "Te ajutăm să alegi soluția potrivită înainte de start",
+    "en": "We help you choose the right solution before you start",
+    "ru": "Помогаем выбрать подходящее решение до старта"
+   }
+  },
+  {
+   "c": "custom",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Migrarea datelor și a sistemelor",
+    "en": "Data and system migration",
+    "ru": "Миграция данных и систем"
+   },
+   "d": {
+    "ro": "Mutăm datele între platforme fără pierderi",
+    "en": "We move data between platforms without losses",
+    "ru": "Переносим данные между платформами без потерь"
+   }
+  },
+  {
+   "c": "custom",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Soluții non-standard și integrări cu echipamente (IoT)",
+    "en": "Non-standard solutions and hardware (IoT) integrations",
+    "ru": "Нестандартные решения и интеграции с оборудованием (IoT)"
+   },
+   "d": {
+    "ro": "Senzori, dispozitive, panouri de control",
+    "en": "Sensors, devices, control panels",
+    "ru": "Датчики, устройства, панели управления"
+   }
+  },
+  {
+   "c": "custom",
+   "p": null,
+   "u": "p",
+   "n": {
+    "ro": "Alte sarcini IT",
+    "en": "Other IT tasks",
+    "ru": "Другие IT-задачи"
+   },
+   "d": {
+    "ro": "Nu găsești ce îți trebuie? Realizăm și alte soluții la cerere",
+    "en": "Can't find what you need? We build other solutions on request",
+    "ru": "Не нашли нужное? Реализуем и другие решения под запрос"
+   }
   }
  ],
  "CATS": [
@@ -1508,6 +1814,7 @@ window.DATA = {
   "fix",
   "grow",
   "design",
-  "auto"
+  "auto",
+  "custom"
  ]
 };
