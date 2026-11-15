@@ -21,9 +21,9 @@
   const LANGS = ["ro", "en", "ru"];
   /* accessible names for the language buttons: visible code first (WCAG 2.5.3), then the endonym */
   const LANG_NAMES = { ro: "Română", en: "English", ru: "Русский" };
-  const NAV_LANG = { ru: "ru", en: "en", ro: "ro", mo: "ro" };
+  const DEFAULT_LANG = "ru";
 
-  let lang = "ro";
+  let lang = DEFAULT_LANG;
   let cat = "web";
   let ready = false;
   let observer = null;
@@ -167,7 +167,7 @@
   }
 
   function setLang(l, userInitiated) {
-    lang = T[l] ? l : "ro";
+    lang = T[l] ? l : DEFAULT_LANG;
     try { localStorage.setItem("lang", lang); } catch (e) { /* storage unavailable: language just will not persist */ }
     const t = T[lang];
     document.documentElement.lang = lang;
@@ -255,9 +255,8 @@
 
   function detectLang() {
     let saved = "";
-    try { saved = localStorage.getItem("lang") || ""; } catch (e) { /* storage unavailable: fall back to browser language */ }
-    if (LANGS.includes(saved)) return saved;
-    return NAV_LANG[(navigator.language || "").slice(0, 2)] || "ro";
+    try { saved = localStorage.getItem("lang") || ""; } catch (e) { /* storage unavailable: use the default language */ }
+    return LANGS.includes(saved) ? saved : DEFAULT_LANG;
   }
 
   $("#yr").textContent = new Date().getFullYear();
