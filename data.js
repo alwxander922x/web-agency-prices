@@ -2,40 +2,40 @@
 window.DATA = {
  "T": {
   "ro": {
-   "skip": "Salt la conținut",
+   "skip": "Treci la conținut",
    "nav_packages": "Pachete",
    "nav_prices": "Prețuri",
-   "nav_process": "Proces",
+   "nav_process": "Cum lucrăm",
    "nav_faq": "Întrebări",
-   "nav_cta": "Vezi prețuri",
-   "badge": "Acceptăm proiecte noi",
+   "nav_cta": "Vezi prețurile",
+   "badge": "Luăm proiecte noi",
    "h1a": "Site-uri și sisteme care",
-   "h1b": "aduc clienți, nu doar arată bine.",
-   "lead": "Site-uri, magazine online, automatizări și sisteme pentru afaceri mici din Moldova. Preț fix în scris, termene clare, iar codul rămâne al tău.",
+   "h1b": "aduc clienți, nu doar arată frumos.",
+   "lead": "Facem site-uri, magazine online, automatizări și sisteme pentru afaceri mici din Moldova. Prețul îl fixăm în contract înainte de start, termenele sunt clare, iar tu rămâi proprietarul site-ului.",
    "cta_quote": "Vezi pachetele",
    "cta_prices": "Vezi lista de prețuri",
    "hero_micro": "50% avans, 50% la predare · 2 runde de corecturi incluse",
    "st1": "site de la",
-   "st2": "zile pentru un landing",
+   "st2": "zile pentru o pagină de prezentare",
    "st3": "avans / la predare",
-   "st4": "comunicăm în 3 limbi",
+   "st4": "vorbim în 3 limbi",
    "guar": [
-    "Preț fix, confirmat în scris înainte de start",
-    "Vezi designul înainte să scriem cod",
+    "Preț fixat în contract înainte de start",
+    "Vezi designul înainte să începem programarea",
     "2 runde de corecturi incluse",
-    "Codul și accesele sunt ale tale"
+    "Garantăm siguranța datelor tale personale și a proprietății tale intelectuale"
    ],
    "pk_eye": "Cele mai cerute",
    "pk_h": "Pachete pentru site-uri",
-   "pk_sub": "Alege punctul de start. Totul se poate extinde ulterior, iar tu plătești doar pentru ce ai nevoie.",
-   "help_q": "Nu știi ce îți trebuie? Alege situația ta:",
+   "pk_sub": "Alege de unde începi. Mai târziu poți adăuga orice, iar acum plătești doar pentru ce îți trebuie.",
+   "help_q": "Nu știi ce ți se potrivește? Alege situația ta:",
    "help": [
     [
-     "Nu am site, vreau să încep simplu",
+     "Nu am site și vreau să încep simplu",
      "pkg0"
     ],
     [
-     "Vreau un site complet pentru firmă",
+     "Vreau un site complet pentru firma mea",
      "pkg1"
     ],
     [
@@ -43,41 +43,41 @@ window.DATA = {
      "shop"
     ],
     [
-     "Am nevoie de CRM / programări / aplicație",
+     "Am nevoie de evidența clienților, programări sau o aplicație",
      "sys"
     ],
     [
-     "Am deja un site, dar e vechi sau stricat",
+     "Am deja un site, dar e vechi sau nu merge",
      "fix"
     ],
     [
-     "Vreau mai mulți clienți din Google",
+     "Vreau să mă găsească mai mulți clienți în Google",
      "grow"
     ],
     [
-     "Nu sunt sigur — arată-mi totul",
+     "Nu sunt sigur — arată-mi tot",
      ""
     ]
    ],
-   "pop": "Potrivit pentru majoritatea",
-   "pnote": "Preț fix, în scris, înainte de start. Fără costuri ascunse.",
-   "bun_eye": "Mai ieftin împreună",
+   "pop": "Se potrivește celor mai mulți",
+   "pnote": "Prețul se fixează în contract înainte de start. Fără costuri ascunse.",
+   "bun_eye": "Mai ieftin la pachet",
    "bun_h": "Pachete combinate",
-   "bun_sub": "Aceleași servicii din lista de prețuri, mai ieftin când le iei împreună. Prețul se fixează în scris.",
+   "bun_sub": "Aceleași servicii din lista de prețuri, dar mai ieftine când le iei împreună. Prețul se fixează în contract înainte de start.",
    "bun_save": "economisești",
    "bun_best": "Cel mai avantajos",
    "pl_eye": "Lista completă",
    "pl_h": "Toate serviciile și prețurile",
-   "pl_sub": "Prețurile sunt orientative („de la”). Prețul final depinde de cerințe și se fixează în scris înainte de start. Serviciile marcate „Preț negociabil” se evaluează în funcție de sarcina ta.",
-   "pl_note": "Prețuri în euro (EUR). Plată în MDL sau EUR, prin transfer bancar sau card (în MDL — la cursul BNM din ziua plății). Standard: 50% avans, 50% la predare; proiectele mari — în etape.",
-   "hot": "Start aici",
+   "pl_sub": "Prețurile cu „de la” sunt orientative. Prețul final depinde de ce ai nevoie și se fixează în contract înainte de start. La serviciile marcate „Preț negociabil” calculăm după sarcina ta.",
+   "pl_note": "Prețurile sunt în euro (EUR). Poți plăti în lei (MDL) sau în euro, prin transfer bancar sau cu cardul. În lei se calculează la cursul BNM din ziua plății. De obicei 50% avans și 50% la predare; proiectele mari se plătesc pe etape.",
+   "hot": "Începe de aici",
    "wy_eye": "De ce noi",
-   "wy_h": "Simplu, rapid, onest",
+   "wy_h": "Simplu, rapid, cinstit",
    "pr_eye": "Cum lucrăm",
    "pr_h": "4 pași până la lansare",
-   "fq_eye": "FAQ",
+   "fq_eye": "Întrebări",
    "fq_h": "Întrebări frecvente",
-   "foot": "Toate prețurile în EUR",
+   "foot": "Toate prețurile sunt în EUR",
    "from": "de la",
    "hour": "/oră",
    "month": "/lună",
@@ -85,47 +85,47 @@ window.DATA = {
    "cat": {
     "web": "Site-uri",
     "shop": "Magazine online",
-    "sys": "Sisteme proprii",
-    "app": "Aplicații mobile",
+    "sys": "Sisteme pentru afacere",
+    "app": "Aplicații pentru telefon",
     "fix": "Reparații și suport",
-    "grow": "SEO & Marketing",
+    "grow": "Google și publicitate",
     "design": "Design",
-    "auto": "Automatizări & AI",
+    "auto": "Automatizări și AI",
     "custom": "Alte servicii"
    },
    "pkgs": [
     {
-     "n": "Landing Start",
-     "t": "O pagină care vinde",
+     "n": "Pagină Start",
+     "t": "O pagină care aduce clienți",
      "f": [
-      "1 pagină responsivă",
-      "Pe pagină: formular de solicitări și butoane Telegram / WhatsApp",
-      "Optimizare viteză și SEO de bază",
+      "1 pagină care se vede bine pe telefon, tabletă și calculator",
+      "Formular pentru cereri și butoane de Telegram / WhatsApp",
+      "Pagină care se încarcă repede și setări de bază ca să te găsească în Google",
       "Termen: 3–5 zile",
-      "Hosting & domeniu — ajutăm la configurare"
+      "Hosting și domeniu: te ajutăm să le alegi și să le configurezi (server de la ~$6/lună, plătit separat de tine)"
      ]
     },
     {
      "n": "Site Business",
-     "t": "Prezența completă a afacerii",
+     "t": "Firma ta completă pe internet",
      "f": [
       "Până la 7 pagini",
-      "Design personalizat",
-      "Blog / portofoliu / galerie",
-      "Multilingv RO · EN · RU",
-      "Analytics + SEO tehnic",
+      "Design făcut special pentru tine",
+      "Blog, portofoliu sau galerie foto",
+      "Site în 3 limbi: română, engleză, rusă",
+      "Statistici de vizite (cine intră pe site) și setări tehnice pentru Google",
       "Termen: 1–2 săptămâni"
      ]
     },
     {
      "n": "Site Pro",
-     "t": "Pentru companii în creștere",
+     "t": "Pentru firme care cresc",
      "f": [
-      "10–15 pagini + panou de administrare",
-      "Integrări (CRM, plăți, email)",
-      "Animații și identitate vizuală proprie",
-      "Optimizare avansată de viteză",
-      "1 lună suport inclus",
+      "10–15 pagini și panou de administrare (ca să schimbi singur textele și pozele)",
+      "Legătură cu alte servicii: evidența clienților, plăți online, e-mail",
+      "Animații și stil vizual propriu",
+      "Site care se încarcă foarte repede",
+      "1 lună de suport inclusă",
       "Termen: 3–4 săptămâni"
      ]
     }
@@ -133,11 +133,11 @@ window.DATA = {
    "bun": [
     {
      "n": "Prezență locală",
-     "t": "Landing + SEO + Google Maps",
+     "t": "Oamenii din orașul tău te găsesc în Google și pe hartă",
      "f": [
-      "Landing Start (1 pagină)",
-      "SEO de bază + Search Console",
-      "Google Business Profile"
+      "Site de o pagină (Pagină Start)",
+      "Setări ca Google să găsească site-ul tău (SEO) și conectare la Google Search Console, unde vezi cum apari în căutări",
+      "Fișa firmei tale în Google și pe hartă (Google Business Profile): adresă, program, telefon, recenzii"
      ]
     },
     {
@@ -145,103 +145,101 @@ window.DATA = {
      "t": "Totul pentru primele 3 luni",
      "f": [
       "Site Business (până la 7 pagini)",
-      "SEO de bază + Analytics",
-      "Google Business Profile",
-      "3 luni suport Basic (backup, actualizări, 2 ore de modificări)"
-     ]
-    },
-    {
-     "n": "Magazin la cheie",
-     "t": "De la catalog la prima comandă",
-     "f": [
-      "Magazin Shopify configurat complet",
-      "Plăți online",
-      "Import produse",
-      "SEO de bază + Analytics"
+      "Setări ca Google să te găsească (SEO) și statistici de vizite",
+      "Fișa firmei tale în Google și pe hartă (Google Business Profile)",
+      "3 luni de suport Basic incluse în preț; după aceea, opțional, €80/lună (Standard €190, Premium €400, separat). Suportul înseamnă: actualizări de securitate, copii de rezervă, monitorizare, remedierea erorilor de pe site și 2 ore de modificări pe lună. Lucrăm luni–vineri, 9:00–18:00 (ora Chișinăului), răspundem în maximum 1 zi lucrătoare. Serverul aparține furnizorului de hosting (de exemplu DigitalOcean), iar el răspunde ca serverul să funcționeze. Noi răspundem de site-ul de pe server: îl restaurăm din copie, îl mutăm sau contactăm furnizorul."
      ]
     }
    ],
    "why": [
     [
      "team",
-     "Primii clienți primesc atenție maximă",
-     "Suntem o echipă nouă, deci lucrezi direct cu dezvoltatorii, nu cu un manager de cont. Riscul tău e mic: vezi designul înainte de cod și plătești doar 50% avans."
+     "Primii clienți primesc cea mai multă atenție",
+     "Suntem o echipă nouă, așa că vorbești direct cu cei care fac site-ul, nu cu un intermediar. Riscul tău e mic: vezi designul înainte de programare și plătești doar 50% avans."
     ],
     [
      "bolt",
-     "Livrare rapidă",
-     "Landing în câteva zile, site business în 1–2 săptămâni. Vezi progresul pe parcurs, nu doar la final."
+     "Lucrăm repede",
+     "O pagină de prezentare în câteva zile, un site de firmă în 1–2 săptămâni. Vezi cum merge lucrul pe parcurs, nu doar la sfârșit."
     ],
     [
      "lock",
      "Codul este 100% al tău",
-     "Primești toate sursele și accesele. Fără dependență de noi și fără abonamente ascunse."
+     "Codul, fișierele și conturile site-ului sunt ale tale. Nu împărțim și nu refolosim datele tale. Nu depinzi de noi și nu ai abonamente ascunse."
     ],
     [
      "globe",
      "3 limbi, fără bariere",
-     "Comunicăm și livrăm în română, engleză și rusă, iar site-ul tău poate fi multilingv."
+     "Vorbim cu tine și lucrăm în română, engleză și rusă, iar site-ul tău poate fi în toate cele 3 limbi."
     ]
    ],
    "steps": [
     [
-     "Brief și preț fix",
-     "Stabilim obiectivele, bugetul și termenul. Primești un preț fix, în scris."
+     "Discutăm și fixăm prețul",
+     "Stabilim ce vrei să obții, bugetul și termenul. Prețul se fixează în contract înainte de start."
     ],
     [
-     "Design & plan",
-     "Îți arătăm structura și designul înainte de a scrie cod. Aprobi, apoi trecem mai departe."
+     "Design și plan",
+     "Îți arătăm cum va arăta site-ul înainte să începem programarea. Tu aprobi, apoi mergem mai departe."
     ],
     [
-     "Dezvoltare",
-     "Construim și îți arătăm rezultatele pe un link de test. 2 runde de corecturi incluse."
+     "Realizarea site-ului",
+     "Construim site-ul și ți-l arătăm pe un link de test. 2 runde de corecturi sunt incluse."
     ],
     [
-     "Lansare & suport",
-     "Publicăm, te instruim și rămânem alături — cu suport lunar, dacă dorești."
+     "Lansare și suport",
+     "Publicăm site-ul, te învățăm să-l folosești și rămânem aproape, cu suport lunar dacă vrei."
     ]
    ],
    "faq": [
     [
-     "Cât costă cu adevărat un site?",
-     "Un landing page pornește de la 300 €, un site business de la 700 €. Prețul final depinde de numărul de pagini și funcții. Îl confirmăm în scris înainte de start și nu se schimbă pe parcurs, decât dacă adaugi funcții noi."
+     "Cât costă de fapt un site?",
+     "O pagină de prezentare costă de la 300 €, un site pentru firmă de la 700 €. Prețul final depinde de numărul de pagini și de funcții. Îl fixăm în contract înainte de start și nu se schimbă pe parcurs, decât dacă tu ceri funcții noi."
     ],
     [
      "Cum se plătește?",
-     "De obicei 50% avans și 50% la predare. Pentru proiecte mari — în 3–4 etape. Acceptăm transfer bancar și card, în MDL sau EUR."
+     "De obicei 50% avans și 50% la predare. La proiectele mari plătești în 3–4 etape. Acceptăm transfer bancar și card, în lei sau în euro."
     ],
     [
      "Ce fac dacă nu-mi place rezultatul?",
-     "Vezi designul înainte să scriem cod și ai 2 runde de corecturi incluse. Dacă tot nu ne potrivim, ne oprim, iar tu plătești doar munca deja predată."
+     "Vezi designul înainte să începem programarea și ai 2 runde de corecturi incluse. Dacă tot nu ne înțelegem, ne oprim, iar tu plătești doar pentru ce a fost deja predat."
     ],
     [
      "Sunteți o echipă nouă. De ce să am încredere?",
-     "E o întrebare corectă. Nu avem încă studii de caz publice, așa că am construit procesul să-ți limiteze riscul: preț fix în scris, 50% avans, link de test în timpul lucrului, cod și accese predate la final. Poți vorbi direct cu dezvoltatorii înainte de orice plată."
+     "Întrebarea e corectă. Încă nu avem exemple publice de proiecte, așa că am făcut procesul să-ți țină riscul mic: prețul fixat în contract, 50% avans, link de test cât lucrăm, iar la final primești codul și accesele. Poți vorbi cu cei care fac site-ul înainte de orice plată."
     ],
     [
-     "Puteți repara un site existent?",
-     "Da. Reparații, erori, viteză, migrare, securitate — de la 30 €/oră. Problemele mici se rezolvă de obicei rapid."
+     "Puteți repara un site care există deja?",
+     "Da. Reparăm erori, grăbim site-ul, îl mutăm pe alt server, îl protejăm. De la 30 €/oră. Problemele mici se rezolvă de obicei repede."
     ],
     [
      "Cât durează un proiect?",
-     "Landing: 3–5 zile. Site business: 1–2 săptămâni. Magazin online: 2–4 săptămâni. Sisteme proprii: se estimează după analiză."
+     "Pagină de prezentare: 3–5 zile. Site pentru firmă: 1–2 săptămâni. Magazin online: 2–4 săptămâni. Sisteme pentru afacere: spunem termenul după ce înțelegem ce îți trebuie."
     ],
     [
-     "Cine deține site-ul după finalizare?",
-     "Tu. Primești codul sursă, accesele la hosting și domeniu. Suportul lunar este opțional."
+     "Cui aparține site-ul după ce e gata?",
+     "Ție. Codul, fișierele și conturile (hosting, domeniu) sunt ale tale. Nu împărțim și nu refolosim datele tale. Suportul lunar e opțional."
+    ],
+    [
+     "Ce face concret suportul?",
+     "Suportul se plătește separat, lunar: Basic €80, Standard €190, Premium €400. Include actualizări de securitate, copii de rezervă (ca să poți recupera site-ul dacă ceva se strică), monitorizare (vedem dacă site-ul merge), remedierea erorilor de pe site și un număr de ore de modificări pe lună (la Basic sunt 2 ore). Lucrăm luni–vineri, 9:00–18:00 (ora Chișinăului), și răspundem în maximum 1 zi lucrătoare. Serverul aparține furnizorului de hosting (de exemplu DigitalOcean), iar el răspunde ca serverul să funcționeze. Noi răspundem de site-ul de pe el: în cadrul suportului îl restaurăm din copie, îl mutăm sau contactăm furnizorul. În pachetul „Site + SEO + suport” primele 3 luni de Basic sunt incluse în preț."
+    ],
+    [
+     "Cât costă hostingul și domeniul?",
+     "Hostingul îl plătești direct furnizorului, în contul tău, iar noi îl configurăm. La DigitalOcean serverele virtuale (Droplets) costă aproximativ: $4/lună (1 procesor, 0,5 GB memorie — minimul), $6/lună (1 procesor, 1 GB memorie, 25 GB spațiu — ajunge pentru o pagină de prezentare sau un site mic de firmă), $12/lună (1 procesor, 2 GB memorie, 50 GB spațiu — pentru magazin, programări sau evidența clienților). Domeniul .md se plătește o dată pe an unui registrar (firma care vinde domenii); prețul depinde de registrar. Dacă nu vrei să te ocupi singur, avem varianta administrată „Hosting + domeniu .md”: €20/lună, din lista de prețuri."
     ],
     [
      "Lucrați cu clienți din afara Moldovei?",
-     "Da, lucrăm cu clienți din România, UE și CSI. Comunicăm în română, engleză și rusă."
+     "Da, lucrăm cu clienți din România, UE și țările CSI. Vorbim în română, engleză și rusă."
     ]
    ],
    "st2v": "3–5",
-   "logo_t": "Web · Aplicații · Sisteme",
+   "logo_t": "Site-uri · Aplicații · Sisteme",
    "nav_home": "Acasă",
    "meta_title": "Site-uri, aplicații și sisteme în Moldova | Prețuri în EUR",
-   "meta_desc": "Dezvoltare web în Moldova: landing de la 300 €, site-uri, magazine online, CRM, aplicații mobile, suport și SEO. Prețuri clare în euro.",
-   "end_h": "Alege punctul de start",
-   "end_p": "Alege un pachet sau găsește serviciul exact în lista de prețuri. Prețul este fix și confirmat în scris înainte de start: 50% avans, 50% la predare.",
+   "meta_desc": "Site-uri în Moldova: pagină de prezentare de la 300 €, site-uri pentru firme, magazine online, evidența clienților, aplicații pentru telefon, suport și promovare în Google. Prețuri clare, în euro.",
+   "end_h": "Alege de unde începi",
+   "end_p": "Alege un pachet sau găsește serviciul exact în lista de prețuri. Prețul se fixează în contract înainte de start: 50% avans, 50% la predare.",
    "more": "Vezi toate serviciile și prețurile",
    "nego": "Preț negociabil"
   },
@@ -255,7 +253,7 @@ window.DATA = {
    "badge": "Taking new projects",
    "h1a": "Websites & systems that",
    "h1b": "bring customers, not just look good.",
-   "lead": "Websites, online stores, automation and custom systems for small businesses in Moldova. A fixed price in writing, clear deadlines, and you keep the code.",
+   "lead": "Websites, online stores, automation and custom systems for small businesses in Moldova. The price is fixed in the contract before we start, deadlines are clear, and the site belongs to you.",
    "cta_quote": "See packages",
    "cta_prices": "See the price list",
    "hero_micro": "50% upfront, 50% on delivery · 2 revision rounds included",
@@ -264,14 +262,14 @@ window.DATA = {
    "st3": "upfront / on delivery",
    "st4": "we speak 3 languages",
    "guar": [
-    "Fixed price, confirmed in writing before we start",
-    "See the design before we write code",
-    "2 revision rounds included",
-    "You own the code and all access"
+    "The price is fixed in the contract before we start",
+    "You see the design before we build the site",
+    "2 rounds of changes included",
+    "We protect your personal data and your intellectual property"
    ],
    "pk_eye": "Most requested",
    "pk_h": "Website packages",
-   "pk_sub": "Pick a starting point. Everything can be extended later — you only pay for what you need.",
+   "pk_sub": "Pick a starting point. You can add more later, and you only pay for what you need.",
    "help_q": "Not sure what you need? Pick your situation:",
    "help": [
     [
@@ -287,7 +285,7 @@ window.DATA = {
      "shop"
     ],
     [
-     "I need a CRM / booking system / app",
+     "I need a customer database, online booking or an app",
      "sys"
     ],
     [
@@ -304,15 +302,15 @@ window.DATA = {
     ]
    ],
    "pop": "Best fit for most",
-   "pnote": "Fixed price, in writing, before we start. No hidden costs.",
+   "pnote": "The price is fixed in the contract before we start. No hidden costs.",
    "bun_eye": "Cheaper together",
-   "bun_h": "Bundles",
-   "bun_sub": "The same services from the price list, cheaper when taken together. Price fixed in writing.",
+   "bun_h": "Ready-made bundles",
+   "bun_sub": "The same services from the price list, but cheaper when you take them together. The price is fixed in the contract before we start.",
    "bun_save": "you save",
    "bun_best": "Best value",
    "pl_eye": "Full list",
    "pl_h": "All services & prices",
-   "pl_sub": "Prices are indicative (“from”). The final price depends on your requirements and is fixed in writing before we start. Items marked “Negotiable price” are estimated for your specific task.",
+   "pl_sub": "Prices are indicative (“from”). The final price depends on what you need and is fixed in the contract before we start. Items marked “Negotiable price” are estimated for your specific task.",
    "pl_note": "Prices in euros (EUR). Pay in MDL or EUR by bank transfer or card (MDL at the NBM rate on the payment date). Standard: 50% upfront, 50% on delivery; larger projects in milestones.",
    "hot": "Start here",
    "wy_eye": "Why us",
@@ -332,7 +330,7 @@ window.DATA = {
     "sys": "Custom systems",
     "app": "Mobile apps",
     "fix": "Fixes & support",
-    "grow": "SEO & Marketing",
+    "grow": "Get found on Google & marketing",
     "design": "Design",
     "auto": "Automation & AI",
     "custom": "More services"
@@ -342,11 +340,11 @@ window.DATA = {
      "n": "Landing Start",
      "t": "One page that sells",
      "f": [
-      "1 responsive page",
+      "1 page that looks good on phone and computer",
       "On the page: enquiry form and Telegram / WhatsApp buttons",
-      "Speed & basic SEO optimisation",
+      "Fast loading and basic SEO (so Google can find your site)",
       "Delivery: 3–5 days",
-      "Hosting & domain — we help set up"
+      "Hosting & domain: we choose and set them up (server from ~$6/month, paid separately by you)"
      ]
     },
     {
@@ -355,9 +353,9 @@ window.DATA = {
      "f": [
       "Up to 7 pages",
       "Custom design",
-      "Blog / portfolio / gallery",
-      "Multilingual RO · EN · RU",
-      "Analytics + technical SEO",
+      "Blog, portfolio or photo gallery",
+      "Site in 3 languages: RO · EN · RU",
+      "Visitor statistics + SEO setup (so Google can find your site)",
       "Delivery: 1–2 weeks"
      ]
     },
@@ -365,10 +363,10 @@ window.DATA = {
      "n": "Pro Site",
      "t": "For growing companies",
      "f": [
-      "10–15 pages + admin panel",
-      "Integrations (CRM, payments, email)",
-      "Animations & custom brand identity",
-      "Advanced speed optimisation",
+      "10–15 pages + admin panel (a page where you edit the site yourself)",
+      "Integrations (connecting your site to a customer database, online payments, email)",
+      "Animations & your own brand look (logo, colours, style)",
+      "Extra work to make the site load faster",
       "1 month of support included",
       "Delivery: 3–4 weeks"
      ]
@@ -376,12 +374,13 @@ window.DATA = {
    ],
    "bun": [
     {
-     "n": "Local presence",
-     "t": "Landing + SEO + Google Maps",
+     "n": "Be found in your city",
+     "t": "People nearby find you on Google and on the map",
      "f": [
-      "Landing Start (1 page)",
-      "Basic SEO + Search Console",
-      "Google Business Profile"
+      "Landing Start: a one-page site",
+      "Basic SEO: setup so Google can find your site",
+      "Google Search Console: a free Google tool that shows how your site appears in search",
+      "Google Business Profile: your business card on Google search and maps (address, hours, phone, reviews)"
      ]
     },
     {
@@ -389,19 +388,9 @@ window.DATA = {
      "t": "Everything for the first 3 months",
      "f": [
       "Business Site (up to 7 pages)",
-      "Basic SEO + Analytics",
-      "Google Business Profile",
-      "3 months of Basic support (backups, updates, 2 hours of changes)"
-     ]
-    },
-    {
-     "n": "Turnkey store",
-     "t": "From catalogue to first order",
-     "f": [
-      "Shopify store, fully configured",
-      "Online payments",
-      "Product import",
-      "Basic SEO + Analytics"
+      "Basic SEO (so Google can find your site) + visitor statistics",
+      "Google Business Profile: your business card on Google search and maps",
+      "3 months of Basic support already included in the price. Support means: security updates, backups (saved copies of the site), monitoring, fixing errors, and 2 hours of changes per month. Afterwards it is optional at €80/month. Hosting (the server) is run by your hosting provider; if something happens, we restore the site from a backup, move it, or contact the provider."
      ]
     }
    ],
@@ -409,7 +398,7 @@ window.DATA = {
     [
      "team",
      "Early clients get our full attention",
-     "We're a new team, so you work directly with the developers, not an account manager. Your risk stays small: see the design before code and pay only 50% upfront."
+     "We're a new team, so you talk directly to the people who build your site, not to a manager. Your risk stays small: you see the design before we build, and you pay only 50% upfront."
     ],
     [
      "bolt",
@@ -418,8 +407,8 @@ window.DATA = {
     ],
     [
      "lock",
-     "The code is 100% yours",
-     "You get all sources and access. No lock-in and no hidden subscriptions."
+     "Your data and your site stay yours",
+     "The site files, the code and all accounts belong to you. We do not share or reuse your data, and there are no hidden subscriptions."
     ],
     [
      "globe",
@@ -430,25 +419,25 @@ window.DATA = {
    "steps": [
     [
      "Brief & fixed price",
-     "We agree on goals, budget and deadline. You get a fixed price in writing."
+     "We agree on goals, budget and deadline. The price is fixed in the contract before we start."
     ],
     [
      "Design & plan",
-     "We show structure and design before writing code. You approve, then we move on."
+     "We show you the page structure and design first. You approve, then we start building."
     ],
     [
      "Development",
-     "We build and share progress on a test link. 2 revision rounds included."
+     "We build the site and show progress on a private test link. 2 rounds of changes included."
     ],
     [
      "Launch & support",
-     "We publish, train you and stay by your side — with monthly support if you want."
+     "We put the site online, show you how to use it, and stay nearby. Monthly support is available if you want it."
     ]
    ],
    "faq": [
     [
      "What does a website really cost?",
-     "A landing page starts at €300, a business site at €700. The final price depends on pages and features. We confirm it in writing before we start, and it does not change along the way unless you add new features."
+     "A landing page starts at €300, a business site at €700. The final price depends on the number of pages and features. We fix it in the contract before we start, and it does not change along the way unless you ask for something new."
     ],
     [
      "How do payments work?",
@@ -456,23 +445,31 @@ window.DATA = {
     ],
     [
      "What if I don't like the result?",
-     "You see the design before we write any code, and 2 revision rounds are included. If we still are not a fit, we stop and you only pay for the work already delivered."
+     "You see the design before we build anything, and 2 rounds of changes are included. If we still are not a fit, we stop and you only pay for the work already done."
     ],
     [
      "You're a new team. Why should I trust you?",
-     "Fair question. We don't have public case studies yet, so we built the process to cap your risk: fixed price in writing, 50% upfront, a test link while we work, code and access handed over at the end. You can talk to the developers directly before paying anything."
+     "Fair question. We don't have public case studies yet, so we built the process to keep your risk small: the price is fixed in the contract, you pay 50% upfront, you see a test link while we work, and at the end everything is handed over to you. You can talk to the people who will build your site before paying anything."
     ],
     [
      "Can you fix an existing site?",
-     "Yes. Bugs, speed, migration, security — from €30/hour. Small issues are usually quick to fix."
+     "Yes. We fix errors, make the site faster, move it to a new place, and make it safer. It costs €30/hour. Small problems are usually quick to fix."
     ],
     [
      "How long does a project take?",
-     "Landing: 3–5 days. Business site: 1–2 weeks. Online store: 2–4 weeks. Custom systems: estimated after analysis."
+     "Landing: 3–5 days. Business site: 1–2 weeks. Online store: 2–4 weeks. Custom systems: we estimate the time after we study your task."
     ],
     [
      "Who owns the site afterwards?",
-     "You do. You receive the source code plus hosting and domain access. Monthly support is optional."
+     "You do. The site files, the code, and the hosting and domain accounts all belong to you. We protect your personal data, and we do not share or reuse it. Monthly support is optional."
+    ],
+    [
+     "What does support actually do?",
+     "Support is a monthly plan: Basic €80/month, Standard €190, Premium €400. It covers security updates, backups (saved copies of your site), monitoring, fixing errors on the site, and a set number of hours of changes per month (Basic = 2 hours). We work Monday to Friday, 9:00–18:00 Chisinau time, and reply within 1 business day. The server belongs to your hosting provider (for example DigitalOcean), and the provider keeps the server running. We look after the website on it: under a support plan we restore it from a backup, move it to another server, or contact the provider for you. The “Site + SEO + support” bundle already includes 3 months of Basic."
+    ],
+    [
+     "How much do hosting and a domain cost?",
+     "Hosting is the server where your site lives. You pay the provider directly, in your own account, and we set everything up. At DigitalOcean a virtual server costs about $4/month (1 processor, 0.5 GB memory: the minimum), $6/month (1 processor, 1 GB memory, 25 GB storage: enough for a landing page or a small business site), or $12/month (1 processor, 2 GB memory, 50 GB storage: for an online store, booking system or customer database). A .md domain (your site address) is paid once a year to a registrar, and the price depends on the registrar. If you prefer, our managed option “Hosting + .md domain (managed)” is €20/month in the price list."
     ],
     [
      "Do you work with clients outside Moldova?",
@@ -483,9 +480,9 @@ window.DATA = {
    "logo_t": "Web · Apps · Systems",
    "nav_home": "Home",
    "meta_title": "Websites, apps & custom systems in Moldova | EUR pricing",
-   "meta_desc": "Web development in Moldova: landing pages from €300, websites, online stores, CRM, mobile apps, support and SEO. Clear pricing in euros.",
+   "meta_desc": "Web development in Moldova: landing pages from €300, business websites from €700, online stores, customer databases, mobile apps, support and help to be found on Google. Clear prices in euros.",
    "end_h": "Pick your starting point",
-   "end_p": "Pick a package or find the exact service in the price list. The price is fixed and confirmed in writing before we start: 50% upfront, 50% on delivery.",
+   "end_p": "Pick a package or find the exact service in the price list. The price is fixed in the contract before we start: 50% upfront, 50% on delivery.",
    "more": "See all services and prices",
    "nego": "Negotiable price"
   },
@@ -499,7 +496,7 @@ window.DATA = {
    "badge": "Берём новые проекты",
    "h1a": "Сайты и системы, которые",
    "h1b": "приводят клиентов, а не просто выглядят красиво.",
-   "lead": "Сайты, интернет-магазины, автоматизации и системы для малого бизнеса в Молдове. Цена фиксируется письменно, сроки понятны, код остаётся вашим.",
+   "lead": "Сайты, интернет-магазины, автоматизация и системы для малого бизнеса в Молдове. Цена фиксируется в договоре до старта, сроки понятны, все материалы остаются вашими.",
    "cta_quote": "Смотреть пакеты",
    "cta_prices": "Смотреть прайс-лист",
    "hero_micro": "50% аванс, 50% при сдаче · 2 круга правок включены",
@@ -508,14 +505,14 @@ window.DATA = {
    "st3": "аванс / при сдаче",
    "st4": "говорим на 3 языках",
    "guar": [
-    "Фиксированная цена письменно до старта",
-    "Дизайн показываем до написания кода",
+    "Цена фиксируется в договоре до старта",
+    "Дизайн показываем до начала разработки",
     "2 круга правок включены",
-    "Код и доступы — ваши"
+    "Гарантия сохранности ваших персональных данных и интеллектуальной собственности"
    ],
    "pk_eye": "Чаще всего заказывают",
    "pk_h": "Пакеты для сайтов",
-   "pk_sub": "Выберите стартовую точку. Всё можно расширить позже — платите только за то, что нужно.",
+   "pk_sub": "Выберите, с чего начать. Всё можно расширить позже — платите только за то, что нужно.",
    "help_q": "Не знаете, что нужно? Выберите свою ситуацию:",
    "help": [
     [
@@ -531,7 +528,7 @@ window.DATA = {
      "shop"
     ],
     [
-     "Нужна CRM / запись / приложение",
+     "Нужна программа учёта клиентов, онлайн-запись или приложение",
      "sys"
     ],
     [
@@ -548,22 +545,22 @@ window.DATA = {
     ]
    ],
    "pop": "Подходит большинству",
-   "pnote": "Цена фиксируется письменно до старта. Без скрытых платежей.",
+   "pnote": "Цена фиксируется в договоре до старта. Без скрытых платежей.",
    "bun_eye": "Выгоднее вместе",
-   "bun_h": "Комплексные пакеты",
-   "bun_sub": "Те же услуги из прайса, но дешевле при заказе вместе. Цена фиксируется письменно.",
+   "bun_h": "Готовые наборы услуг",
+   "bun_sub": "Те же услуги из прайс-листа, но дешевле, если заказать вместе. Цена фиксируется в договоре до старта.",
    "bun_save": "экономия",
    "bun_best": "Самый выгодный",
    "pl_eye": "Полный список",
    "pl_h": "Все услуги и цены",
-   "pl_sub": "Цены ориентировочные («от»). Итоговая цена зависит от задач и фиксируется письменно до старта. Позиции с пометкой «Договорная цена» оцениваются под вашу задачу.",
-   "pl_note": "Цены в евро (EUR). Оплата в MDL или EUR банковским переводом или картой (в MDL — по курсу НБМ на день оплаты). Стандарт: 50% аванс, 50% при сдаче; крупные проекты — по этапам.",
+   "pl_sub": "Цены ориентировочные («от»). Итоговая цена зависит от ваших задач и фиксируется в договоре до старта. Услуги с пометкой «Договорная цена» мы оцениваем под вашу задачу.",
+   "pl_note": "Цены в евро (EUR). Оплата в MDL или EUR банковским переводом или картой (в MDL — по курсу Национального банка Молдовы на день оплаты). Обычно 50% аванс, 50% при сдаче; крупные проекты — по этапам.",
    "hot": "Начните здесь",
    "wy_eye": "Почему мы",
    "wy_h": "Просто, быстро, честно",
    "pr_eye": "Как мы работаем",
    "pr_h": "4 шага до запуска",
-   "fq_eye": "FAQ",
+   "fq_eye": "Вопросы",
    "fq_h": "Частые вопросы",
    "foot": "Все цены в EUR",
    "from": "от",
@@ -576,32 +573,32 @@ window.DATA = {
     "sys": "Индивидуальные системы",
     "app": "Мобильные приложения",
     "fix": "Правки и поддержка",
-    "grow": "SEO и маркетинг",
+    "grow": "Продвижение в Google и маркетинг",
     "design": "Дизайн",
-    "auto": "Автоматизация и AI",
+    "auto": "Автоматизация и ИИ",
     "custom": "Прочие услуги"
    },
    "pkgs": [
     {
      "n": "Лендинг Старт",
-     "t": "Одна страница, которая продаёт",
+     "t": "Сайт из одной страницы, которая продаёт",
      "f": [
-      "1 адаптивная страница",
-      "На странице: форма заявки и кнопки Telegram / WhatsApp",
-      "Ускорение и базовое SEO",
+      "1 страница, удобная на телефоне и на компьютере",
+      "Форма заявки и кнопки для связи в Telegram / WhatsApp",
+      "Быстрая загрузка и базовая настройка, чтобы сайт находили в Google",
       "Срок: 3–5 дней",
-      "Хостинг и домен — поможем настроить"
+      "Хостинг и домен: подберём и настроим (сервер от ~$6/мес, оплачивается отдельно вами)"
      ]
     },
     {
      "n": "Сайт Бизнес",
-     "t": "Полноценное присутствие в сети",
+     "t": "Полноценный сайт компании",
      "f": [
       "До 7 страниц",
       "Индивидуальный дизайн",
-      "Блог / портфолио / галерея",
-      "Мультиязычность RO · EN · RU",
-      "Аналитика + техническое SEO",
+      "Блог, портфолио или галерея работ",
+      "Сайт на 3 языках: румынский, английский, русский",
+      "Статистика посещений и настройка, чтобы сайт находили в Google",
       "Срок: 1–2 недели"
      ]
     },
@@ -609,10 +606,10 @@ window.DATA = {
      "n": "Сайт Про",
      "t": "Для растущих компаний",
      "f": [
-      "10–15 страниц + админ-панель",
-      "Интеграции (CRM, оплата, почта)",
+      "10–15 страниц + панель управления (вы сами меняете тексты и данные на сайте)",
+      "Подключение других сервисов (CRM — программа учёта клиентов, онлайн-оплата, почта)",
       "Анимации и фирменный стиль",
-      "Расширенная оптимизация скорости",
+      "Ускорение загрузки сайта",
       "1 месяц поддержки включён",
       "Срок: 3–4 недели"
      ]
@@ -620,32 +617,24 @@ window.DATA = {
    ],
    "bun": [
     {
-     "n": "Локальное присутствие",
-     "t": "Лендинг + SEO + Google Maps",
+     "n": "Вас находят рядом",
+     "t": "Одностраничный сайт + настройка, чтобы клиенты находили вас по запросу в вашем городе",
      "f": [
-      "Лендинг Старт (1 страница)",
-      "Базовое SEO + Search Console",
-      "Google Business Profile"
+      "Лендинг Старт: сайт из 1 страницы",
+      "Настройка, чтобы сайт находили в Google (это называется SEO)",
+      "Google Search Console — бесплатный сервис Google, который показывает, как люди находят ваш сайт",
+      "Карточка вашей фирмы в Google и на картах (Google Business Profile): адрес, телефон, часы работы, отзывы"
      ]
     },
     {
      "n": "Сайт + SEO + поддержка",
-     "t": "Всё на первые 3 месяца",
+     "t": "Сайт, который находят, и забота о нём первые 3 месяца",
      "f": [
       "Сайт Бизнес (до 7 страниц)",
-      "Базовое SEO + аналитика",
-      "Google Business Profile",
-      "3 месяца поддержки Basic (бэкапы, обновления, 2 часа правок)"
-     ]
-    },
-    {
-     "n": "Магазин под ключ",
-     "t": "От каталога до первого заказа",
-     "f": [
-      "Магазин на Shopify, полная настройка",
-      "Онлайн-оплата",
-      "Импорт товаров",
-      "Базовое SEO + аналитика"
+      "Настройка, чтобы сайт находили в Google (SEO), и статистика посещений",
+      "Карточка вашей фирмы в Google и на картах (Google Business Profile)",
+      "3 месяца поддержки Basic уже включены в цену: обновления безопасности, резервные копии, контроль работы сайта, исправление ошибок и 2 часа правок в месяц. Дальше — по желанию, €80/мес",
+      "Сервер принадлежит хостинг-провайдеру, он отвечает за его работу. Мы отвечаем за сайт на нём: по поддержке восстановим из копии, перенесём или свяжемся с провайдером"
      ]
     }
    ],
@@ -653,17 +642,17 @@ window.DATA = {
     [
      "team",
      "Первым клиентам — максимум внимания",
-     "Мы новая команда, поэтому вы работаете напрямую с разработчиками, а не с менеджером. Риск ограничен: дизайн вы видите до кода, аванс — только 50%."
+     "Мы новая команда, поэтому вы работаете напрямую с разработчиками, а не с менеджером. Риск небольшой: дизайн вы видите до начала разработки, аванс — только 50%."
     ],
     [
      "bolt",
      "Быстрая сдача",
-     "Лендинг за дни, бизнес-сайт за 1–2 недели. Прогресс видно по ходу, а не только в конце."
+     "Одностраничный сайт — за несколько дней, сайт компании — за 1–2 недели. Ход работы видно сразу, а не только в конце."
     ],
     [
      "lock",
-     "Код 100% ваш",
-     "Вы получаете все исходники и доступы. Без привязки к нам и скрытых подписок."
+     "Всё созданное — ваше",
+     "Исходный код, файлы и доступы принадлежат вам. Ваши данные мы никому не передаём и не используем в других проектах. Без скрытых подписок."
     ],
     [
      "globe",
@@ -673,26 +662,26 @@ window.DATA = {
    ],
    "steps": [
     [
-     "Бриф и фиксированная цена",
-     "Определяем цели, бюджет и сроки. Вы получаете фиксированную цену в письменном виде."
+     "Обсуждаем задачу и цену",
+     "Выясняем цели, бюджет и сроки. Цена фиксируется в договоре до старта."
     ],
     [
      "Дизайн и план",
-     "Показываем структуру и дизайн до написания кода. Вы утверждаете — идём дальше."
+     "Показываем, как будет выглядеть сайт, до начала разработки. Вы утверждаете — идём дальше."
     ],
     [
-     "Разработка",
-     "Делаем и показываем результат по тестовой ссылке. 2 круга правок включены."
+     "Работа над сайтом",
+     "Делаем сайт и показываем результат по временной ссылке, чтобы вы могли всё посмотреть. 2 круга правок включены."
     ],
     [
      "Запуск и поддержка",
-     "Публикуем, обучаем и остаёмся рядом — с ежемесячной поддержкой, если нужно."
+     "Публикуем сайт, показываем, как им пользоваться, и остаёмся рядом — с ежемесячной поддержкой, если нужно."
     ]
    ],
    "faq": [
     [
      "Сколько на самом деле стоит сайт?",
-     "Лендинг — от 300 €, бизнес-сайт — от 700 €. Итоговая цена зависит от количества страниц и функций. Мы фиксируем её письменно до старта, и она не меняется по ходу работы, если вы не добавляете новые функции."
+     "Сайт из одной страницы — от 300 €, сайт компании — от 700 €. Итоговая цена зависит от числа страниц и функций. Мы фиксируем её в договоре до старта, и она не меняется по ходу работы, если вы не просите новые функции."
     ],
     [
      "Как проходит оплата?",
@@ -704,11 +693,11 @@ window.DATA = {
     ],
     [
      "Вы новая команда. Почему вам стоит доверять?",
-     "Справедливый вопрос. Публичных кейсов у нас пока нет, поэтому процесс выстроен так, чтобы ограничить ваш риск: фиксированная цена письменно, аванс 50%, тестовая ссылка по ходу работы, код и доступы в конце. С разработчиками можно поговорить напрямую до любой оплаты."
+     "Справедливый вопрос. Публичных примеров работ у нас пока нет, поэтому всё устроено так, чтобы ваш риск был небольшим: цена в договоре до старта, аванс 50%, временная ссылка по ходу работы, все материалы и доступы в конце. С разработчиками можно поговорить напрямую до любой оплаты."
     ],
     [
      "Можете починить существующий сайт?",
-     "Да. Ошибки, скорость, перенос, безопасность — от 30 €/час. Небольшие проблемы обычно решаются быстро."
+     "Да. Ошибки, медленная работа, перенос на другой хостинг, защита от взломов — от 30 €/час. Небольшие проблемы обычно решаются быстро."
     ],
     [
      "Сколько длится проект?",
@@ -716,7 +705,15 @@ window.DATA = {
     ],
     [
      "Кому принадлежит сайт после сдачи?",
-     "Вам. Вы получаете исходный код, доступы к хостингу и домену. Ежемесячная поддержка — по желанию."
+     "Вам. Исходный код, файлы, доступы к хостингу и домену — ваши. Мы не передаём ваши данные третьим лицам и не используем их в других проектах. Ежемесячная поддержка — по желанию."
+    ],
+    [
+     "Что делает поддержка?",
+     "Это ежемесячный план, чтобы сайт работал без сбоев. Входит: обновления безопасности, резервные копии, контроль работы сайта, исправление ошибок и несколько часов правок в месяц. Цены: Basic — €80/мес (2 часа правок), Standard — €190/мес, Premium — €400/мес. Работаем пн–пт, 9:00–18:00 по времени Кишинёва, отвечаем в течение 1 рабочего дня. Сервер принадлежит хостинг-провайдеру (например, DigitalOcean), и он отвечает за его работу. Мы отвечаем за сайт на сервере: по плану поддержки восстановим его из резервной копии, перенесём на другой сервер или свяжемся с провайдером. В пакете «Сайт + SEO + поддержка» первые 3 месяца Basic уже включены в цену."
+    ],
+    [
+     "Сколько стоит хостинг и домен?",
+     "Хостинг вы оплачиваете напрямую провайдеру, в своём аккаунте, а мы всё настраиваем. Например, виртуальные серверы DigitalOcean (Droplets): около $4/мес (1 процессор, 0,5 ГБ памяти — минимум), около $6/мес (1 процессор, 1 ГБ памяти, 25 ГБ диска — хватит для сайта из одной страницы или небольшого сайта компании), около $12/мес (1 процессор, 2 ГБ памяти, 50 ГБ диска — для магазина, онлайн-записи или CRM). Домен .md оплачивается раз в год регистратору, цена зависит от регистратора. Если удобнее, есть вариант «под ключ»: «Хостинг + домен .md (под ключ)» — €20/мес по прайс-листу."
     ],
     [
      "Работаете с клиентами не из Молдовы?",
@@ -727,9 +724,9 @@ window.DATA = {
    "logo_t": "Веб · Приложения · Системы",
    "nav_home": "Главная",
    "meta_title": "Сайты, приложения и системы в Молдове | Цены в EUR",
-   "meta_desc": "Веб-разработка в Молдове: лендинг от 300 €, сайты, интернет-магазины, CRM, мобильные приложения, поддержка и SEO. Понятные цены в евро.",
+   "meta_desc": "Сайты в Молдове: сайт из одной страницы от 300 €, сайт компании от 700 €, интернет-магазины, учёт клиентов (CRM), мобильные приложения, поддержка и продвижение в Google. Понятные цены в евро.",
    "end_h": "Выберите, с чего начать",
-   "end_p": "Выберите пакет или найдите нужную услугу в прайс-листе. Цена фиксируется письменно до старта: 50% аванс, 50% при сдаче.",
+   "end_p": "Выберите пакет или найдите нужную услугу в прайс-листе. Цена фиксируется в договоре до старта: 50% аванс, 50% при сдаче.",
    "more": "Смотреть все услуги и цены",
    "nego": "Договорная цена"
   }
@@ -769,9 +766,9 @@ window.DATA = {
     "ru": "Лендинг Старт (1 страница)"
    },
    "d": {
-    "ro": "O pagină responsivă cu formular de solicitări",
-    "en": "One responsive page with an enquiry form",
-    "ru": "Одна адаптивная страница с формой заявки"
+    "ro": "Totul pe o singură pagină: cine ești, ce oferi, prețul, formular de contact. Ieftin și rapid",
+    "en": "Everything on one scrolling page: who you are, offer, price, contact form. Cheap and fast",
+    "ru": "Всё на одной странице: кто вы, что предлагаете, цена, форма заявки. Дёшево и быстро, для одной услуги или старта"
    }
   },
   {
@@ -786,9 +783,9 @@ window.DATA = {
     "ru": "Сайт Бизнес (до 7 страниц)"
    },
    "d": {
-    "ro": "Design personalizat, SEO tehnic",
-    "en": "Custom design, technical SEO",
-    "ru": "Индивидуальный дизайн, техническое SEO"
+    "ro": "Pagini separate: Acasă, Servicii, Despre noi, Prețuri, Contacte. Mai bun pentru mai multe servicii și pentru Google",
+    "en": "Separate pages: Home, Services, About, Prices, Contacts. Better for several services and for being found in Google",
+    "ru": "Отдельные страницы: Главная, Услуги, О нас, Цены, Контакты. Лучше для нескольких услуг и поиска в Google"
    }
   },
   {
@@ -801,9 +798,9 @@ window.DATA = {
     "ru": "Сайт Про (корпоративный, 10–15 страниц)"
    },
    "d": {
-    "ro": "Panou de administrare, integrări",
-    "en": "Admin panel, integrations",
-    "ru": "Админ-панель, интеграции"
+    "ro": "Site mare de companie cu panou de administrare (editezi singur conținutul) și conexiuni cu alte programe",
+    "en": "Bigger company site with an admin panel (edit content yourself) and connections to other tools",
+    "ru": "Крупный сайт компании с админ-панелью (сами меняете контент) и связью с другими программами"
    }
   },
   {
@@ -816,9 +813,9 @@ window.DATA = {
     "ru": "Мультиязычность (RO/EN/RU)"
    },
    "d": {
-    "ro": "Adăugare limbi la site-ul existent",
-    "en": "Add languages to an existing site",
-    "ru": "Добавление языков к существующему сайту"
+    "ro": "Site în mai multe limbi, cu buton de schimbare a limbii. Îl adăugăm la site-ul tău existent",
+    "en": "Site in several languages with a language switch, added to your existing site",
+    "ru": "Сайт на нескольких языках с переключателем языка. Добавляем к вашему сайту"
    }
   },
   {
@@ -831,9 +828,9 @@ window.DATA = {
     "ru": "Редизайн сайта"
    },
    "d": {
-    "ro": "Design modern, păstrăm conținutul",
-    "en": "Modern look, content preserved",
-    "ru": "Современный вид, контент сохраняем"
+    "ro": "Aspect nou pentru site-ul existent; textele și pozele rămân",
+    "en": "A new look for your existing site; your texts and photos stay",
+    "ru": "Новый внешний вид существующего сайта; ваши тексты и фото сохраняем"
    }
   },
   {
@@ -846,9 +843,9 @@ window.DATA = {
     "ru": "Сайт на WordPress / Tilda"
    },
    "d": {
-    "ro": "Cu editare ușoară pentru tine",
-    "en": "Easy to edit yourself",
-    "ru": "Легко редактировать самостоятельно"
+    "ro": "Pe un constructor gata făcut: mai ieftin, editezi singur textele, dar mai puțin design unic decât la un site făcut de la zero",
+    "en": "Built on a ready-made website builder: cheaper, you edit texts yourself, but less unique design than a from-scratch site",
+    "ru": "На готовом конструкторе: дешевле, тексты правите сами, но дизайна и функций меньше, чем у сайта с нуля"
    }
   },
   {
@@ -861,9 +858,9 @@ window.DATA = {
     "ru": "Электронное меню с QR-кодом"
    },
    "d": {
-    "ro": "Pentru restaurante și cafenele, editabil de tine",
-    "en": "For restaurants and cafés, editable by you",
-    "ru": "Для ресторанов и кафе, редактируете сами"
+    "ro": "Meniu pe o pagină care se deschide prin cod QR. Pentru restaurante și cafenele, îl editezi singur",
+    "en": "Menu on a page opened by scanning a QR code. For restaurants and cafés, editable by you",
+    "ru": "Меню на странице, которая открывается по QR-коду. Для ресторанов и кафе, редактируете сами"
    }
   },
   {
@@ -876,9 +873,9 @@ window.DATA = {
     "ru": "Интернет-магазин Старт"
    },
    "d": {
-    "ro": "Până la 100 produse, coș, comenzi",
-    "en": "Up to 100 products, cart, orders",
-    "ru": "До 100 товаров, корзина, заказы"
+    "ro": "Magazin simplu: până la 100 de produse, coș de cumpărături, comenzi",
+    "en": "Simple online shop: up to 100 products, shopping cart, orders",
+    "ru": "Простой интернет-магазин: до 100 товаров, корзина, заказы"
    }
   },
   {
@@ -894,22 +891,6 @@ window.DATA = {
     "ro": "Plăți online, livrare, filtre, stocuri",
     "en": "Online payments, delivery, filters, stock",
     "ru": "Онлайн-оплата, доставка, фильтры, склад"
-   }
-  },
-  {
-   "c": "shop",
-   "id": "shopify",
-   "p": 700,
-   "u": "p",
-   "n": {
-    "ro": "Magazin pe Shopify",
-    "en": "Shopify store setup",
-    "ru": "Магазин на Shopify"
-   },
-   "d": {
-    "ro": "Configurare completă și temă",
-    "en": "Full setup and theme",
-    "ru": "Полная настройка и тема"
    }
   },
   {
@@ -954,9 +935,9 @@ window.DATA = {
     "ru": "Импорт товаров / каталога"
    },
    "d": {
-    "ro": "Din Excel, 1C sau alt site",
-    "en": "From Excel, 1C or another site",
-    "ru": "Из Excel, 1С или другого сайта"
+    "ro": "Transferăm datele pe care le ai deja într-un fișier (Excel/CSV, export 1C, site vechi): nume, prețuri, descrieri, categorii, poze și stocuri din fișier. Fotografierea, scrierea descrierilor și introducerea stocurilor se calculează separat.",
+    "en": "We transfer product data you ALREADY have as a file (Excel/CSV, 1C export, old site): names, prices, descriptions, categories, photos and stock in the file. Photography, writing descriptions and entering stock counts are quoted separately.",
+    "ru": "Переносим данные, которые у вас УЖЕ есть в файле (Excel/CSV, выгрузка 1С, старый сайт): названия, цены, описания, категории, фото и остатки из файла. Фотосъёмка, написание описаний и ввод остатков — отдельно."
    }
   },
   {
@@ -969,9 +950,9 @@ window.DATA = {
     "ru": "Система онлайн-записи"
    },
    "d": {
-    "ro": "Pentru clinici, saloane, servicii",
-    "en": "For clinics, salons, services",
-    "ru": "Для клиник, салонов, услуг"
+    "ro": "Clienții se programează singuri pe site, ziua și ora. Pentru clinici, saloane, servicii",
+    "en": "Clients book a day and time on your site by themselves. For clinics, salons, services",
+    "ru": "Клиенты сами записываются на сайте на удобный день и время. Для клиник, салонов, услуг"
    }
   },
   {
@@ -984,9 +965,9 @@ window.DATA = {
     "ru": "CRM / внутренняя система"
    },
    "d": {
-    "ro": "Clienți, comenzi, rapoarte, roluri",
-    "en": "Clients, orders, reports, roles",
-    "ru": "Клиенты, заказы, отчёты, роли"
+    "ro": "CRM = program pentru evidența clienților și comenzilor: clienți, comenzi, rapoarte, drepturi pentru angajați",
+    "en": "CRM = a program to keep track of clients and orders: clients, orders, reports, staff access levels",
+    "ru": "CRM — программа для учёта клиентов и заказов: клиенты, заказы, отчёты, права сотрудников"
    }
   },
   {
@@ -999,9 +980,9 @@ window.DATA = {
     "ru": "Админ-панель"
    },
    "d": {
-    "ro": "Gestionare date și utilizatori",
-    "en": "Manage data and users",
-    "ru": "Управление данными и пользователями"
+    "ro": "Pagină închisă pentru tine și echipă, unde gestionezi datele și utilizatorii",
+    "en": "A private page for you and your team to manage data and users",
+    "ru": "Закрытая страница для вас и команды: управление данными и пользователями"
    }
   },
   {
@@ -1014,9 +995,9 @@ window.DATA = {
     "ru": "Веб-приложение / MVP SaaS"
    },
    "d": {
-    "ro": "Cont, abonamente, plăți",
-    "en": "Accounts, subscriptions, payments",
-    "ru": "Аккаунты, подписки, оплата"
+    "ro": "MVP = prima versiune funcțională. Conturi de utilizator, abonamente, plată online",
+    "en": "MVP = first working version. User accounts, subscriptions, online payment",
+    "ru": "MVP — первая рабочая версия. Личные аккаунты, подписки, онлайн-оплата"
    }
   },
   {
@@ -1029,9 +1010,9 @@ window.DATA = {
     "ru": "Интеграции API / CRM"
    },
    "d": {
-    "ro": "Conectăm sistemele între ele",
-    "en": "Connect your systems together",
-    "ru": "Связываем ваши системы между собой"
+    "ro": "Conectăm site-ul cu alte programe (API = „punte” între sisteme, CRM = evidența clienților)",
+    "en": "We connect your site with other programs (API = a “bridge” between systems, CRM = client records)",
+    "ru": "Связываем сайт с другими программами (API — «мостик» между системами, CRM — учёт клиентов)"
    }
   },
   {
@@ -1059,9 +1040,9 @@ window.DATA = {
     "ru": "Личный кабинет клиента"
    },
    "d": {
-    "ro": "Istoric, documente, statusuri",
-    "en": "History, documents, statuses",
-    "ru": "История, документы, статусы"
+    "ro": "Clientul se loghează și vede istoricul, documentele și statusul comenzilor",
+    "en": "Clients log in and see their history, documents and order status",
+    "ru": "Клиент входит и видит историю, документы и статусы заказов"
    }
   },
   {
@@ -1074,9 +1055,9 @@ window.DATA = {
     "ru": "Интеграция MPass / MSign (вход и электронная подпись)"
    },
    "d": {
-    "ro": "Conectăm site-ul la serviciile guvernamentale; accesul se obține separat de la furnizor",
-    "en": "We connect your site to the government services; access is obtained separately from the provider",
-    "ru": "Подключаем сайт к госсервисам; доступ оформляется отдельно у провайдера сервиса"
+    "ro": "Autentificare prin serviciul guvernamental (MPass) și semnătură electronică (MSign) pe site; accesul se obține separat de la furnizor",
+    "en": "Login via the government service (MPass) and e-signature (MSign) on your site; access is obtained separately from the provider",
+    "ru": "Вход через госсервис (MPass) и электронная подпись (MSign) на сайте; доступ оформляется отдельно у провайдера"
    }
   },
   {
@@ -1089,9 +1070,9 @@ window.DATA = {
     "ru": "Интеграция с e-Factura"
    },
    "d": {
-    "ro": "Emitere și trimitere e-facturi din sistemul tău, conform cerințelor serviciului",
-    "en": "Issue and submit e-invoices from your system, following the service requirements",
-    "ru": "Выписка и отправка электронных счетов из вашей системы по требованиям сервиса"
+    "ro": "e-Factura = facturi electronice: le emiți și trimiți direct din sistemul tău, conform cerințelor serviciului",
+    "en": "e-Factura = electronic invoices: issued and sent straight from your system, following the service requirements",
+    "ru": "e-Factura — электронные счета-фактуры: выписка и отправка прямо из вашей системы по требованиям сервиса"
    }
   },
   {
@@ -1104,9 +1085,9 @@ window.DATA = {
     "ru": "Мобильное приложение MVP (iOS + Android)"
    },
    "d": {
-    "ro": "Un singur cod pentru ambele platforme",
-    "en": "One codebase for both platforms",
-    "ru": "Один код для обеих платформ"
+    "ro": "MVP = prima versiune funcțională a aplicației, pentru iPhone și Android, dintr-un singur cod",
+    "en": "MVP = first working version of the app, for iPhone and Android, built from one codebase",
+    "ru": "MVP — первая рабочая версия приложения для iPhone и Android, на одном коде"
    }
   },
   {
@@ -1134,9 +1115,9 @@ window.DATA = {
     "ru": "PWA (устанавливается из браузера)"
    },
    "d": {
-    "ro": "Alternativă accesibilă la aplicația nativă",
-    "en": "An affordable alternative to a native app",
-    "ru": "Доступная альтернатива нативному приложению"
+    "ro": "PWA = site care se instalează pe telefon ca o aplicație. Mai ieftin decât aplicația obișnuită",
+    "en": "PWA = a site that installs on your phone like an app. Cheaper than a regular app",
+    "ru": "PWA — сайт, который ставится на телефон как приложение. Дешевле обычного приложения"
    }
   },
   {
@@ -1164,9 +1145,9 @@ window.DATA = {
     "ru": "Ускорение сайта"
    },
    "d": {
-    "ro": "Core Web Vitals, imagini, cache",
-    "en": "Core Web Vitals, images, cache",
-    "ru": "Core Web Vitals, картинки, кэш"
+    "ro": "Site-ul se deschide mai repede (Core Web Vitals = nota de viteză de la Google): poze, cache",
+    "en": "Your site opens faster (Core Web Vitals = Google’s speed score): images, caching",
+    "ru": "Сайт открывается быстрее (Core Web Vitals — оценка скорости от Google): картинки, кэш"
    }
   },
   {
@@ -1194,9 +1175,9 @@ window.DATA = {
     "ru": "Чистка от вирусов и защита"
    },
    "d": {
-    "ro": "Eliminare viruși, SSL, backup",
-    "en": "Malware removal, SSL, backups",
-    "ru": "Удаление вирусов, SSL, бэкапы"
+    "ro": "Eliminare viruși, SSL (lăcățelul https), copii de siguranță",
+    "en": "Malware removal, SSL (the https padlock), backups",
+    "ru": "Удаление вирусов, SSL (замочек https), резервные копии"
    }
   },
   {
@@ -1211,9 +1192,9 @@ window.DATA = {
     "ru": "Поддержка — Basic"
    },
    "d": {
-    "ro": "Actualizări, backup, 2 ore de modificări",
-    "en": "Updates, backups, 2 hours of changes",
-    "ru": "Обновления, бэкапы, 2 часа правок"
+    "ro": "Actualizări de securitate, backup, monitorizare, remedierea erorilor, 2 ore de modificări. Taxă lunară separată; L–V 9:00–18:00 (Chișinău), răspuns în 1 zi lucrătoare",
+    "en": "Security updates, backups, monitoring, fixing site errors, 2 hours of changes. Separate monthly fee; Mon–Fri 9:00–18:00 (Chisinau), reply within 1 business day",
+    "ru": "Обновления безопасности, бэкапы, мониторинг, исправление ошибок, 2 ч правок. Отдельная ежемесячная плата; пн–пт 9:00–18:00 (Кишинёв), ответ за 1 рабочий день"
    }
   },
   {
@@ -1226,9 +1207,9 @@ window.DATA = {
     "ru": "Поддержка — Standard"
    },
    "d": {
-    "ro": "Monitorizare + 6 ore de modificări",
-    "en": "Monitoring + 6 hours of changes",
-    "ru": "Мониторинг + 6 часов правок"
+    "ro": "Tot ce include Basic, plus monitorizare activă și 6 ore de modificări. Taxă lunară separată; L–V 9:00–18:00 (Chișinău), răspuns în 1 zi lucrătoare",
+    "en": "Everything in Basic, plus active monitoring and 6 hours of changes. Separate monthly fee; Mon–Fri 9:00–18:00 (Chisinau), reply within 1 business day",
+    "ru": "Всё из Basic, плюс активный мониторинг и 6 ч правок. Отдельная ежемесячная плата; пн–пт 9:00–18:00 (Кишинёв), ответ за 1 рабочий день"
    }
   },
   {
@@ -1241,9 +1222,9 @@ window.DATA = {
     "ru": "Поддержка — Premium"
    },
    "d": {
-    "ro": "Prioritate la solicitări + 15 ore de modificări",
-    "en": "Priority handling + 15 hours of changes",
-    "ru": "Приоритет в работе + 15 часов правок"
+    "ro": "Tot ce include Standard, plus prioritate și 15 ore de modificări. Taxă lunară separată; L–V 9:00–18:00 (Chișinău), răspuns în 4 ore lucrătoare",
+    "en": "Everything in Standard, plus priority and 15 hours of changes. Separate monthly fee; Mon–Fri 9:00–18:00 (Chisinau), reply within 4 working hours",
+    "ru": "Всё из Standard, плюс приоритет и 15 ч правок. Отдельная ежемесячная плата; пн–пт 9:00–18:00 (Кишинёв), ответ в течение 4 рабочих часов"
    }
   },
   {
@@ -1256,9 +1237,9 @@ window.DATA = {
     "ru": "Хостинг + домен .md (под ключ)"
    },
    "d": {
-    "ro": "SSL, backup zilnic, reînnoire domeniu",
-    "en": "SSL, daily backups, domain renewal",
-    "ru": "SSL, ежедневный бэкап, продление домена"
+    "ro": "Server (ca un DigitalOcean Droplet, ~6 $/lună), SSL (lăcățelul https), backup zilnic, reînnoirea anuală a domeniului .md",
+    "en": "Server (like a DigitalOcean Droplet, ~$6/month), SSL (the https padlock), daily backup, yearly .md domain renewal",
+    "ru": "Сервер (как DigitalOcean Droplet, ~$6/мес), SSL (замочек https), ежедневный бэкап, продление домена .md раз в год"
    }
   },
   {
@@ -1271,9 +1252,9 @@ window.DATA = {
     "ru": "Корпоративная почта (Google Workspace / Zoho)"
    },
    "d": {
-    "ro": "Adresă @firma.md, configurare DNS, adrese pentru echipă",
-    "en": "@yourcompany.md address, DNS setup, team mailboxes",
-    "ru": "Адреса @firma.md, настройка DNS, ящики для команды"
+    "ro": "Adrese @firma.md, setare DNS (legarea de domeniu), căsuțe pentru echipă",
+    "en": "@yourcompany.md addresses, DNS setup (linking to your domain), team mailboxes",
+    "ru": "Адреса @firma.md, настройка DNS (привязка к домену), ящики для команды"
    }
   },
   {
@@ -1303,9 +1284,9 @@ window.DATA = {
     "ru": "Базовая SEO-настройка"
    },
    "d": {
-    "ro": "Meta, sitemap, Google Search Console",
-    "en": "Meta, sitemap, Google Search Console",
-    "ru": "Мета-теги, sitemap, Search Console"
+    "ro": "SEO = să te găsească în Google: titluri pentru căutare, hartă a site-ului (sitemap), Search Console",
+    "en": "SEO = being found in Google: search titles, sitemap, Search Console",
+    "ru": "SEO — чтобы вас находили в Google: заголовки для поиска, карта сайта (sitemap), Search Console"
    }
   },
   {
@@ -1318,9 +1299,9 @@ window.DATA = {
     "ru": "SEO-продвижение (ежемесячно)"
    },
    "d": {
-    "ro": "Conținut, linkuri, raport lunar",
-    "en": "Content, links, monthly report",
-    "ru": "Контент, ссылки, ежемесячный отчёт"
+    "ro": "SEO lunar, ca să urci în Google: conținut, linkuri, raport lunar",
+    "en": "Monthly SEO to climb in Google: content, links, monthly report",
+    "ru": "SEO каждый месяц, чтобы подниматься в Google: контент, ссылки, отчёт"
    }
   },
   {
@@ -1349,9 +1330,9 @@ window.DATA = {
     "ru": "Аналитика + Pixel + Tag Manager"
    },
    "d": {
-    "ro": "Vezi ce aduce fiecare reclamă",
-    "en": "Track what every ad brings",
-    "ru": "Видите, что приносит каждая реклама"
+    "ro": "Vezi ce aduce reclama: statistici de vizite, Pixel și Tag Manager (coduri de urmărire)",
+    "en": "See what your ads bring: visit statistics, Pixel and Tag Manager (tracking codes)",
+    "ru": "Видите, что приносит реклама: статистика посещений, Pixel и Tag Manager (метки отслеживания)"
    }
   },
   {
@@ -1380,9 +1361,9 @@ window.DATA = {
     "ru": "Фид товаров Google Merchant / Meta Catalog"
    },
    "d": {
-    "ro": "Produsele tale în Google Shopping și reclame",
-    "en": "Your products in Google Shopping and ads",
-    "ru": "Ваши товары в Google Shopping и рекламе"
+    "ro": "Produsele tale în Google Shopping și reclame (Google Merchant = catalogul de produse Google)",
+    "en": "Your products in Google Shopping and ads (Google Merchant = Google’s product catalog)",
+    "ru": "Ваши товары в Google Shopping и рекламе (Google Merchant — каталог товаров Google)"
    }
   },
   {
@@ -1410,9 +1391,9 @@ window.DATA = {
     "ru": "UI/UX-дизайн (Figma)"
    },
    "d": {
-    "ro": "Machete pentru site sau aplicație",
-    "en": "Mockups for a site or app",
-    "ru": "Макеты для сайта или приложения"
+    "ro": "Machete: cum va arăta site-ul sau aplicația, înainte de dezvoltare (în Figma)",
+    "en": "Mockups: how the site or app will look, before development (in Figma)",
+    "ru": "Макеты: как будет выглядеть сайт или приложение, до разработки (в Figma)"
    }
   },
   {
@@ -1470,9 +1451,9 @@ window.DATA = {
     "ru": "Автоматизация (n8n / Zapier)"
    },
    "d": {
-    "ro": "Formulare → CRM → notificări",
-    "en": "Forms → CRM → notifications",
-    "ru": "Формы → CRM → уведомления"
+    "ro": "Legăm programe între ele fără cod: cereri de pe site → CRM (evidența clienților) → notificări",
+    "en": "We link programs together without code: site requests → CRM (client records) → notifications",
+    "ru": "Связываем программы без кода: заявки с сайта → CRM (учёт клиентов) → уведомления"
    }
   },
   {
@@ -1500,9 +1481,9 @@ window.DATA = {
     "ru": "Парсинг / выгрузка данных"
    },
    "d": {
-    "ro": "Colectăm date în Excel / bază de date",
-    "en": "Collect data into Excel / database",
-    "ru": "Собираем данные в Excel / базу"
+    "ro": "Adunăm automat date de pe site-uri în Excel sau într-o bază de date",
+    "en": "We automatically collect data from websites into Excel or a database",
+    "ru": "Автоматически собираем данные с сайтов в Excel или базу"
    }
   },
   {
@@ -1575,9 +1556,9 @@ window.DATA = {
     "ru": "Распознавание и обработка документов (OCR)"
    },
    "d": {
-    "ro": "Facturi, contracte, formulare — direct în sistemul tău",
-    "en": "Invoices, contracts, forms — straight into your system",
-    "ru": "Счета, договоры, формы — сразу в вашу систему"
+    "ro": "OCR = citirea automată a textului din scanări și poze: facturi, contracte, formulare — direct în sistemul tău",
+    "en": "OCR = automatic reading of text from scans and photos: invoices, contracts, forms — straight into your system",
+    "ru": "OCR — автоматическое чтение текста со сканов и фото: счета, договоры, формы — сразу в вашу систему"
    }
   },
   {
@@ -1665,9 +1646,9 @@ window.DATA = {
     "ru": "BI-дашборды и аналитические отчёты"
    },
    "d": {
-    "ro": "Cifrele afacerii într-un singur loc",
-    "en": "Your business figures in one place",
-    "ru": "Цифры вашего бизнеса в одном месте"
+    "ro": "BI = grafice și rapoarte clare: cifrele afacerii tale într-un singur loc",
+    "en": "BI = clear charts and reports: your business figures in one place",
+    "ru": "BI — наглядные графики и отчёты: цифры вашего бизнеса в одном месте"
    }
   },
   {
@@ -1740,9 +1721,9 @@ window.DATA = {
     "ru": "Технический аудит и рефакторинг кода"
    },
    "d": {
-    "ro": "Analizăm codul existent și îl îmbunătățim",
-    "en": "We review your existing code and improve it",
-    "ru": "Разбираем существующий код и улучшаем его"
+    "ro": "Analizăm codul existent și îl punem în ordine (refactorizare = curățarea codului)",
+    "en": "We review your existing code and tidy it up (refactoring = cleaning up code)",
+    "ru": "Разбираем существующий код и наводим порядок (рефакторинг — приведение кода в порядок)"
    }
   },
   {
@@ -1755,9 +1736,9 @@ window.DATA = {
     "ru": "Консультации: архитектура и выбор технологий"
    },
    "d": {
-    "ro": "Te ajutăm să alegi soluția potrivită înainte de start",
-    "en": "We help you choose the right solution before you start",
-    "ru": "Помогаем выбрать подходящее решение до старта"
+    "ro": "Te ajutăm să alegi soluția și tehnologiile potrivite înainte de start",
+    "en": "We help you choose the right solution and technologies before you start",
+    "ru": "Помогаем выбрать подходящее решение и технологии до старта"
    }
   },
   {
@@ -1785,9 +1766,9 @@ window.DATA = {
     "ru": "Нестандартные решения и интеграции с оборудованием (IoT)"
    },
    "d": {
-    "ro": "Senzori, dispozitive, panouri de control",
-    "en": "Sensors, devices, control panels",
-    "ru": "Датчики, устройства, панели управления"
+    "ro": "IoT = conectarea senzorilor și dispozitivelor la programe: senzori, dispozitive, panouri de control",
+    "en": "IoT = connecting sensors and devices to software: sensors, devices, control panels",
+    "ru": "IoT — подключение датчиков и устройств к программам: датчики, устройства, панели управления"
    }
   },
   {

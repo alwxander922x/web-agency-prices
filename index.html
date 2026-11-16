@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
 <link rel="stylesheet" href="styles.css">
 <script src="data.js" defer></script>
+<script src="explain.js" defer></script>
 <script src="app.js" defer></script>
 </head>
 <body>
@@ -100,6 +101,15 @@
     <div class="grid-3" id="bundlesGrid"></div>
   </section>
 
+  <section class="sec wrap" id="explain" aria-labelledby="xp-h">
+    <header class="sec-head rv">
+      <p class="eyebrow" id="xp-eye"></p>
+      <h2 id="xp-h"></h2>
+      <p class="sub" id="xp-sub"></p>
+    </header>
+    <div class="xp" id="xpList"></div>
+  </section>
+
   <section class="sec wrap" id="prices" aria-labelledby="pl-h">
     <header class="sec-head rv">
       <p class="eyebrow" data-i18n="pl_eye"></p>
@@ -109,6 +119,7 @@
     <div class="tabs" id="tabs" role="group" data-aria="cats"></div>
     <div class="plist" id="plist"></div>
     <p class="note" data-i18n="pl_note"></p>
+    <p class="note" id="contractNote"></p>
   </section>
 
   <section class="sec wrap" id="why" aria-labelledby="wy-h">

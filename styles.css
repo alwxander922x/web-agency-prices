@@ -335,6 +335,26 @@ h3 { font-size: 1.15rem; line-height: 1.3; letter-spacing: -0.01em; font-weight:
 @media (min-width: 1100px) { .logo-t { font-size: 1rem; } }
 
 /* Scroll reveal (only when JS enabled it and motion is allowed) */
+/* Bundles: two cards, centred and never stretched too wide */
+#bundlesGrid { grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 480px)); justify-content: center; }
+
+/* Plain-words explainer */
+.xp { display: grid; gap: 20px; }
+.xp-topic { padding: clamp(20px, 3vw, 32px); border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--line); }
+.xp-intro { margin-top: 10px; color: var(--muted); max-width: 75ch; }
+.xp-opts { display: grid; gap: 14px; margin-top: 20px; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
+.xp-opt { padding: 20px; border-radius: var(--r-md); background: var(--bg); border: 1px solid var(--line); min-width: 0; }
+.xp-opt h4 { font-size: 1.05rem; line-height: 1.3; font-weight: 600; margin: 0; }
+.xp-opt > p { margin-top: 6px; color: var(--muted); font-size: 0.95rem; }
+.xp-opt .checks { margin: 14px 0 0; padding-top: 14px; gap: 8px; flex: none; }
+.xp-lab { margin: 14px 0 0; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.xp-lab + .checks { margin-top: 8px; padding-top: 0; border-top: 0; }
+.xp-bad { display: grid; gap: 8px; margin-top: 8px; }
+.xp-bad li { position: relative; padding-left: 28px; font-size: 0.95rem; }
+.xp-bad li::before { content: ""; position: absolute; left: 6px; top: 0.78em; width: 10px; height: 2px; border-radius: 2px; background: var(--muted); }
+.xp-pick { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 0.95rem; }
+.xp-pick b { color: var(--accent); }
+
 @media (prefers-reduced-motion: no-preference) {
   .js-rv .rv:not(.in) { opacity: 0; transform: translateY(18px); }
   .js-rv .rv { transition: opacity 0.7s var(--ease), transform 0.7s var(--ease), border-color 0.25s, box-shadow 0.35s; transition-delay: calc(var(--i, 0) * 70ms); }

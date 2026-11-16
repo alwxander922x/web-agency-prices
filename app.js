@@ -1,6 +1,7 @@
 (() => {
   "use strict";
   const { T, ARIA, LANGMSG, S, CATS } = window.DATA;
+  const EXPLAIN = window.EXPLAIN;
 
   const byId = (id) => S.find((s) => s.id === id);
   const PKG_PRICES = [byId("land").p, byId("biz").p, 1600];
@@ -8,7 +9,6 @@
   const BUNDLE_ITEMS = [
     [["land", 1], ["seo", 1], ["gbp", 1]],
     [["biz", 1], ["seo", 1], ["analytics", 1], ["gbp", 1], ["supp", 3]],
-    [["shopify", 1], ["pay", 1], ["import", 1], ["seo", 1], ["analytics", 1]],
   ];
   const BUNDLES = BUNDLE_ITEMS.map((items) => {
     const sum = items.reduce((acc, [id, qty]) => acc + byId(id).p * qty, 0);
@@ -166,8 +166,37 @@
     $$("#faqList details").forEach((d, i) => { d.open = Boolean(wasOpen[i]); });
   };
 
+  const xpList = (items, cls) =>
+    items && items.length ? `<ul class="${cls}">${items.map((x) => `<li>${x}</li>`).join("")}</ul>` : "";
+
+  function xpOption(o, x) {
+    const sub = (label, items, cls) => (items && items.length
+      ? `<h5 class="xp-lab">${label}</h5>${xpList(items, cls)}` : "");
+    return `
+      <div class="xp-opt">
+        <h4>${o.n}</h4><p>${o.d}</p>
+        ${xpList(o.items, "checks xp-items")}
+        ${sub(x.good, o.good, "checks xp-good")}
+        ${sub(x.bad, o.bad, "xp-bad")}
+        ${o.pick ? `<p class="xp-pick"><b>${x.pick}</b> ${o.pick}</p>` : ""}
+      </div>`;
+  }
+
+  function renderExplain() {
+    const x = EXPLAIN[lang];
+    $("#xp-eye").textContent = x.eye;
+    $("#xp-h").textContent = x.h;
+    $("#xp-sub").textContent = x.sub;
+    $("#contractNote").textContent = x.contract;
+    $("#xpList").innerHTML = x.topics.map((tp, i) => `
+      <article ${attrs("xp-topic", i)}>
+        <h3>${tp.t}</h3><p class="xp-intro">${tp.intro}</p>
+        <div class="xp-opts">${tp.opts.map((o) => xpOption(o, x)).join("")}</div>
+      </article>`).join("");
+  }
+
   function renderAll() {
-    [renderStack, renderStats, renderGuar, renderHelp, renderPackages, renderBundles, renderTabs, renderList, renderWhy, renderSteps, renderFaq]
+    [renderStack, renderStats, renderGuar, renderHelp, renderPackages, renderBundles, renderExplain, renderTabs, renderList, renderWhy, renderSteps, renderFaq]
       .forEach((fn) => fn());
     if (observer) $$(".rv:not(.in)").forEach((el) => observer.observe(el));
   }
